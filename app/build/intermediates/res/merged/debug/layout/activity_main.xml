@@ -9,4 +9,4 @@
     <TextView android:text="Hello World!" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>
-<!-- From: file:/home/fronchetti/AndroidStudioProjects/CBSoft2016/app/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/src/main/res/layout/activity_main.xml -->
