@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -18,10 +18,10 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <color name="accent">@color/colorAccent</color>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
@@ -37,15 +37,15 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="colorAccent">#FF4081</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <color name="colorPrimaryLight">#BBDEFB</color>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
@@ -62,7 +62,7 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
     <eat-comment/>
     <color name="material_drawer_accent">@color/materialize_accent</color>
     <color name="material_drawer_background">@color/md_light_background</color>
@@ -88,7 +88,7 @@
     <color name="material_drawer_secondary_text">@color/md_light_secondary</color>
     <color name="material_drawer_selected">#E8E8E8</color>
     <color name="material_drawer_selected_text">@color/material_drawer_primary</color>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="material_grey_100">#fff5f5f5</color>
     <color name="material_grey_300">#ffe0e0e0</color>
@@ -97,7 +97,7 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <color name="materialize_accent">@color/accent</color>
     <color name="materialize_primary">@color/primary</color>
@@ -373,14 +373,14 @@
     <color name="md_yellow_A700">#FFD600</color>
     <color name="primary">@color/colorPrimary</color>
     <color name="primary_dark">@color/colorPrimaryDark</color>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_light">@color/colorPrimaryLight</color>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_material_dark">@color/material_grey_900</color>
     <color name="primary_material_light">@color/material_grey_100</color>
@@ -498,21 +498,21 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
     <eat-comment/>
     <dimen name="material_drawer_account_header_compact">56dp</dimen>
     <dimen name="material_drawer_account_header_dropdown">22dp</dimen>
@@ -557,15 +557,15 @@
     <dimen name="material_mini_drawer_item_icon">56dp</dimen>
     <dimen name="material_mini_drawer_item_icon_padding">16dp</dimen>
     <dimen name="material_mini_drawer_item_padding">4dp</dimen>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <dimen name="tool_bar_top_padding">0dp</dimen>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -573,20 +573,20 @@
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="home" type="id"/>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
     <eat-comment/>
     <item name="material_drawer_animation" type="id"/>
     <item name="material_drawer_menu_default_group" type="id"/>
     <item name="material_drawer_profile_header" type="id"/>
     <item name="material_drawer_sticky_footer" type="id"/>
     <item name="material_drawer_sticky_header" type="id"/>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <item name="materialize_root" type="id"/>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
@@ -616,19 +616,19 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">CBSoft2016</string>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/1.7.8/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/1.7.8/res/values/values.xml -->
     <eat-comment/>
     <string name="define_AndroidIconics">year;owner</string>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
     <eat-comment/>
     <string name="define_materialdrawer">year;owner</string>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <string name="define_materialize">year;owner</string>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/1.7.8/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/1.7.8/res/values/values.xml -->
     <eat-comment/>
     <string name="library_AndroidIconics_author">Mike Penz</string>
     <string name="library_AndroidIconics_authorWebsite">http://mikepenz.com/</string>
@@ -645,7 +645,7 @@
     <string name="library_AndroidIconics_owner">Mike Penz</string>
     <string name="library_AndroidIconics_repositoryLink">https://github.com/mikepenz/Android-Iconics</string>
     <string name="library_AndroidIconics_year">2014</string>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
     <eat-comment/>
     <string name="library_materialdrawer_author">Mike Penz</string>
     <string name="library_materialdrawer_authorWebsite">http://mikepenz.com/</string>
@@ -662,7 +662,7 @@
     <string name="library_materialdrawer_owner">Mike Penz</string>
     <string name="library_materialdrawer_repositoryLink">https://github.com/mikepenz/MaterialDrawer</string>
     <string name="library_materialdrawer_year">2015</string>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <string name="library_materialize_author">Mike Penz</string>
     <string name="library_materialize_authorWebsite">http://mikepenz.com/</string>
@@ -679,18 +679,18 @@
     <string name="library_materialize_owner">Mike Penz</string>
     <string name="library_materialize_repositoryLink">https://github.com/mikepenz/Materialize</string>
     <string name="library_materialize_year">2015</string>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
     <eat-comment/>
     <string name="material_drawer_close">Close</string>
     <string name="material_drawer_open">Open</string>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -698,7 +698,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1635,14 +1635,14 @@
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
     <eat-comment/>
     <style name="BezelImageView">
         <item name="biv_maskDrawable">@drawable/material_drawer_circle_mask</item>
         <item name="biv_drawCircularShadow">true</item>
         <item name="biv_selectorOnPress">@color/material_drawer_primary</item>
     </style>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <style name="Material.DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="spinBars">false</item>
@@ -1692,7 +1692,7 @@
     <style name="MaterialBaseTheme" parent="MaterialBaseBaseTheme"/>
     <style name="MaterialBaseTheme.Light" parent="MaterialBaseBaseTheme.Light"/>
     <style name="MaterialBaseTheme.Light.DarkToolbar" parent="MaterialBaseBaseTheme.Light.DarkToolbar"/>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
     <eat-comment/>
     <style name="MaterialDrawer.DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="spinBars">false</item>
@@ -1982,7 +1982,7 @@
             @color/material_drawer_header_selection_text
         </item>
     </style>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <style name="MaterialTheme" parent="MaterialBaseTheme"/>
     <style name="MaterialTheme.ActionBar" parent="MaterialTheme">
@@ -2008,7 +2008,7 @@
     <style name="MaterialTheme.Light.DarkToolbar.TranslucentStatus" parent="MaterialTheme.Light.DarkToolbar"/>
     <style name="MaterialTheme.Light.TranslucentStatus" parent="MaterialTheme.Light"/>
     <style name="MaterialTheme.TranslucentStatus" parent="MaterialTheme"/>
-    <!-- From: file:/home/fronchetti/AndroidStudioProjects/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
