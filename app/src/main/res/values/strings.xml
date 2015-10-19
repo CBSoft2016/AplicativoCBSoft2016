@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">CBSoft2016</string>
+
+    <!--Título CBSOFT 2016-->
+
+    <string name="titulo_cbsoft">CBSOFT 2016</string>
+
+    <!--Strings navigation Drawer-->
+    <string name="fragmento_pontos_turisticos">Turismo</string>
+    <string name="fragmento_taxi">Táxi</string>
+    <string name="fragmento_hotel_hostel">Hospedagem</string>
+    <string name="fragmento_restaurante">Restaurantes</string>
+    <string name="fragmento_onibus">Ônibus</string>
+    <string name="fragmento_palestrante">Palestras</string>
+
+    <!--Seções-->
+
+    <string name="secao_cidade">Informações da Cidade</string>
+
 </resources>

@@ -622,12 +622,29 @@
     <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/1.7.8/res/values/values.xml -->
     <eat-comment/>
     <string name="define_AndroidIconics">year;owner</string>
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/fontawesome-typeface/4.4.0.1/res/values/values.xml -->
+    <eat-comment/>
+    <string name="define_font_fontawesome">com.mikepenz.fontawesome_typeface_library.FontAwesome</string>
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/google-material-typeface/1.2.0.1/res/values/values.xml -->
+    <eat-comment/>
+    <string name="define_font_googlematerial">com.mikepenz.google_material_typeface_library.GoogleMaterial</string>
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/octicons-typeface/3.0.0.1/res/values/values.xml -->
+    <eat-comment/>
+    <string name="define_font_octicons">com.mikepenz.octicons_typeface_library.Octicons</string>
     <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/res/values/values.xml -->
     <eat-comment/>
     <string name="define_materialdrawer">year;owner</string>
     <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <string name="define_materialize">year;owner</string>
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="fragmento_hotel_hostel">Hospedagem</string>
+    <string name="fragmento_onibus">Ônibus</string>
+    <string name="fragmento_palestrante">Palestras</string>
+    <string name="fragmento_pontos_turisticos">Turismo</string>
+    <string name="fragmento_restaurante">Restaurantes</string>
+    <string name="fragmento_taxi">Táxi</string>
     <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/1.7.8/res/values/values.xml -->
     <eat-comment/>
     <string name="library_AndroidIconics_author">Mike Penz</string>
@@ -683,9 +700,17 @@
     <eat-comment/>
     <string name="material_drawer_close">Close</string>
     <string name="material_drawer_open">Open</string>
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="secao_cidade">Informações da Cidade</string>
     <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="titulo_cbsoft">CBSOFT 2016</string>
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -693,10 +718,27 @@
     <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <!-- ...and here we setting appcompat’s color theme attrs -->
+        <item name="colorPrimary">#F1433C</item>
+        <item name="colorPrimaryDark">#D03033</item>
+        <item name="colorAccent">#02A8F3</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_background">@color/material_drawer_dark_background</item>
+        <item name="material_drawer_primary_text">@color/material_drawer_dark_primary_text</item>
+        <item name="material_drawer_secondary_text">@color/material_drawer_dark_secondary_text
+        </item>
+        <item name="material_drawer_hint_text">@color/material_drawer_dark_hint_text</item>
+        <item name="material_drawer_divider">@color/material_drawer_dark_divider</item>
+        <item name="material_drawer_selected">@color/material_drawer_dark_selected</item>
+        <item name="material_drawer_selected_text">#F1433C</item>
+        <item name="material_drawer_header_selection_text">
+            @color/material_drawer_dark_primary_text
+        </item>
+
+        <!-- CAB :D -->
+        <item name="windowActionModeOverlay">true</item>
+
     </style>
     <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
@@ -1642,6 +1684,9 @@
         <item name="biv_drawCircularShadow">true</item>
         <item name="biv_selectorOnPress">@color/material_drawer_primary</item>
     </style>
+    <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="FullscreenTheme" parent="MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus"/>
     <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/res/values/values.xml -->
     <eat-comment/>
     <style name="Material.DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">

@@ -13,8 +13,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="com.applications.fronchetti.cbsoft2016.MainActivity" >
+        android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus" >
+        <activity android:name="com.applications.fronchetti.cbsoft2016.Atividades.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
