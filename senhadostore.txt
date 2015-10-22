@@ -1,0 +1,2 @@
+Senha do key store
+cbsoft123
