@@ -1,0 +1,9 @@
+referencia: http://www.androidhive.info/2014/02/android-login-with-google-plus-account-1/
+
+chave de PI Google +
+AIzaSyDePKyC3nZq58XMsDbkbDIBk_mOP4cNKVY
+
+Senha do key store
+cbsoft123
+
+
