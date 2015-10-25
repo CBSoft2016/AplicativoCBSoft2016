@@ -1,5 +1,7 @@
 package com.applications.fronchetti.cbsoft2016.Atividades;
 
+
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -7,7 +9,16 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.app.Fragment;
 
+import com.applications.fronchetti.cbsoft2016.Fragmentos.Hospedagem;
+import com.applications.fronchetti.cbsoft2016.Fragmentos.Inicio;
+import com.applications.fronchetti.cbsoft2016.Fragmentos.Minicursos;
+import com.applications.fronchetti.cbsoft2016.Fragmentos.Onibus;
+import com.applications.fronchetti.cbsoft2016.Fragmentos.Palestras;
+import com.applications.fronchetti.cbsoft2016.Fragmentos.Restaurantes;
+import com.applications.fronchetti.cbsoft2016.Fragmentos.Taxi;
+import com.applications.fronchetti.cbsoft2016.Fragmentos.Turismo;
 import com.applications.fronchetti.cbsoft2016.R;
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.materialdrawer.AccountHeader;
@@ -18,6 +29,7 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SectionDrawerItem;
+import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,11 +47,14 @@ public class MainActivity extends AppCompatActivity {
 
         // Handle Toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(R.string.titulo_cbsoft);
 
-        // Fazer acesso com a conta do Google!!
-        profile = new ProfileDrawerItem().withName("Nome do usuário").withEmail("usuario@gmail.com");
+        String name = getIntent().getStringExtra("name");
+        String email = getIntent().getStringExtra("email");
+
+        profile = new ProfileDrawerItem().withName(name).withEmail(email);
 
         // Create the AccountHeader
         buildHeader(false, savedInstanceState);
@@ -50,22 +65,63 @@ public class MainActivity extends AppCompatActivity {
                 .withToolbar(toolbar)
                 .withAccountHeader(headerResult) //set the AccountHeader we created earlier for the header
                 .addDrawerItems(
-                        new PrimaryDrawerItem().withName(R.string.fragmento_palestrante).withIcon(FontAwesome.Icon.faw_home),
+                        new PrimaryDrawerItem().withName("Página Inicial").withIcon(FontAwesome.Icon.faw_home),
+                        new PrimaryDrawerItem().withName(R.string.fragmento_palestras).withIcon(FontAwesome.Icon.faw_users),
+                        new PrimaryDrawerItem().withName(R.string.fragmento_minicursos).withIcon(FontAwesome.Icon.faw_graduation_cap),
                         new SectionDrawerItem().withName(R.string.secao_cidade),
                         new SecondaryDrawerItem().withName(R.string.fragmento_hotel_hostel).withIcon(FontAwesome.Icon.faw_bed),
                         new SecondaryDrawerItem().withName(R.string.fragmento_onibus).withIcon(FontAwesome.Icon.faw_bus),
                         new SecondaryDrawerItem().withName(R.string.fragmento_taxi).withIcon(FontAwesome.Icon.faw_taxi),
                         new SecondaryDrawerItem().withName(R.string.fragmento_restaurante).withIcon(FontAwesome.Icon.faw_cutlery),
                         new SecondaryDrawerItem().withName(R.string.fragmento_pontos_turisticos).withIcon(FontAwesome.Icon.faw_map_signs)
-                ) // add the items we want to use with our Drawer
-                .withOnDrawerNavigationListener(new Drawer.OnDrawerNavigationListener() {
+                )
+                // add the items we want to use with our Drawer
+                .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
-                    public boolean onNavigationClickListener(View clickedView) {
-                        //this method is only called if the Arrow icon is shown. The hamburger is automatically managed by the MaterialDrawer
-                        //if the back arrow is shown. close the activity
-                        MainActivity.this.finish();
-                        //return true if we have consumed the event
-                        return true;
+                    public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+                        switch (position) {
+                            case 1:
+                                Fragment FragmentInicio = new Inicio();
+                                getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentInicio).addToBackStack(null).commit();
+                                CloseDrawer();
+                                break;
+                            case 2:
+                                Fragment FragmentPalestras = new Palestras();
+                                getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentPalestras).addToBackStack(null).commit();
+                                CloseDrawer();
+                                break;
+                            case 3:
+                                Fragment FragmentMinicursos = new Minicursos();
+                                getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentMinicursos).addToBackStack(null).commit();
+                                CloseDrawer();
+                                break;
+                            case 5:
+                                Fragment FragmentHospedagem = new Hospedagem();
+                                getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentHospedagem).addToBackStack(null).commit();
+                                CloseDrawer();
+                                break;
+                            case 6:
+                                Fragment FragmentOnibus = new Onibus();
+                                getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentOnibus).addToBackStack(null).commit();
+                                CloseDrawer();
+                                break;
+                            case 7:
+                                Fragment FragmentTaxi = new Taxi();
+                                getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentTaxi).addToBackStack(null).commit();
+                                CloseDrawer();
+                                break;
+                            case 8:
+                                Fragment FragmentRestaurantes = new Restaurantes();
+                                getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentRestaurantes).addToBackStack(null).commit();
+                                CloseDrawer();
+                                break;
+                            case 9:
+                                Fragment FragmentTurismo = new Turismo();
+                                getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentTurismo).addToBackStack(null).commit();
+                                CloseDrawer();
+                                break;
+                        }
+                        return false;
                     }
                 })
                 .addStickyDrawerItems(
@@ -73,7 +129,17 @@ public class MainActivity extends AppCompatActivity {
                 )
                 .withSavedInstance(savedInstanceState)
                 .build();
+
+        Fragment FragmentInicio = new Inicio();
+        getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentInicio).commit();
     }
+
+    public void CloseDrawer(){
+        if(result.isDrawerOpen()){
+            result.closeDrawer();
+        }
+    }
+
 
     private void buildHeader(boolean compact, Bundle savedInstanceState) {
         // Create the AccountHeader
@@ -119,5 +185,4 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
-
 }

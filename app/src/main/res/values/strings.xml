@@ -11,10 +11,44 @@
     <string name="fragmento_hotel_hostel">Hospedagem</string>
     <string name="fragmento_restaurante">Restaurantes</string>
     <string name="fragmento_onibus">Ônibus</string>
-    <string name="fragmento_palestrante">Palestras</string>
+    <string name="fragmento_palestras">Palestras</string>
+    <string name="fragmento_minicursos">Minicursos</string>
+
 
     <!--Seções-->
 
     <string name="secao_cidade">Informações da Cidade</string>
+    <string name="title_activity_main_login">CBSoft 2016</string>
+
+    <!--Sign-in-->
+
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+
+    <string name="play_services_error_fmt">Google Play Services Error: %i</string>
+
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="title_text">Google Sign-In\nQuickstart</string>
+
+     <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+
+    <string name="contacts_permission_rationale">Contacts access is needed in order to retrieve your email address.</string>
+
+
+    <!-- Icones -->
+
+    <string name="icon_android">#xf236;</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

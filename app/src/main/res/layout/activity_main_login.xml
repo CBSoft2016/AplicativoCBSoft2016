@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/google_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/g_top_margin"
+            android:contentDescription="@string/desc_google_icon"
+            android:src="@drawable/ic_launcher_big" />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="CBSOFT - 2016"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signed_out"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#c7c2c2">
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            tools:visibility="gone" />
+
+            <info.hoang8f.widget.FButton
+            android:id="@+id/sign_out_button"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:drawablePadding="0dp"
+            android:minHeight="80dp"
+            android:minWidth="250dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:paddingTop="-5dp"
+            android:text="SIGN OUT"
+            android:textColor="@android:color/white"
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="2dp"
+            fbutton:buttonColor="#c23737"
+                android:textStyle="bold"
+            android:textSize="14dp"
+                android:layout_alignBottom="@+id/space"
+                android:layout_toLeftOf="@+id/space"
+                android:layout_toStartOf="@+id/space" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/disconnect_button"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:drawablePadding="0dp"
+            android:minHeight="80dp"
+            android:minWidth="250dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:paddingTop="-5dp"
+            android:text="DISCONNECT"
+            android:textColor="@android:color/white"
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="2dp"
+            fbutton:buttonColor="#c23737"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_alignBottom="@+id/space"
+            android:layout_toRightOf="@+id/space"
+            android:layout_toEndOf="@+id/space" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/offline_button"
+            android:layout_width="215dp"
+            android:layout_height="36dp"
+            android:drawablePadding="0dp"
+            android:minHeight="80dp"
+            android:minWidth="250dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:paddingTop="-5dp"
+            android:text="Acessar offline"
+            android:textColor="@android:color/white"
+            fbutton:cornerRadius="2dp"
+            fbutton:shadowEnabled="false"
+            fbutton:shadowHeight="2dp"
+            fbutton:buttonColor="#3f3baf"
+            android:textSize="14dp"
+            android:layout_below="@+id/sign_in_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/space" />
+
+    </RelativeLayout>
+
+</LinearLayout>
