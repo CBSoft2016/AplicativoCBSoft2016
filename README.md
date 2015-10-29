@@ -5,16 +5,12 @@ Repositório criado para o desenvolvimento do aplicativo Android CBSoft 2016 - M
 
 **Universidade Tecnológica Federal do Parana** - *Campus Campo Mourão*
 
-                            Professor: Igor Steinmacher
+    Professor: 
+        Igor Steinmacher
 
-                                    Alunos 
-
-                                Diego Henrique Abreu
-
-                                Emerson Yudi Nakashima
-
-                                João Martins Filho
-                                
-                                Luiz Felipe Fronchetti
-                                
-                                Vinicius Ribeiro Morais
+    Alunos: 
+        Diego Henrique Abreu
+        Emerson Yudi Nakashima
+        João Martins Filho
+        Luiz Felipe Fronchetti
+        Vinicius Ribeiro Morais
