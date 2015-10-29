@@ -147,7 +147,6 @@ public class MainActivity extends AppCompatActivity {
                 .withActivity(this)
                 .withAlternativeProfileHeaderSwitching(false)
                 .withSelectionListEnabled(false)
-                .withHeaderBackground(R.drawable.header)
                 .withCompactStyle(compact)
                 .addProfiles(
                         profile
