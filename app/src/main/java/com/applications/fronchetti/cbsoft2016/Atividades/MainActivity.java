@@ -1,7 +1,9 @@
 package com.applications.fronchetti.cbsoft2016.Atividades;
 
 
+import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -14,7 +16,6 @@ import android.app.Fragment;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Hospedagem;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Inicio;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Minicursos;
-import com.applications.fronchetti.cbsoft2016.Fragmentos.Onibus;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Palestras;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Restaurantes;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Taxi;
@@ -101,9 +102,11 @@ public class MainActivity extends AppCompatActivity {
                                 CloseDrawer();
                                 break;
                             case 6:
-                                Fragment FragmentOnibus = new Onibus();
-                                getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentOnibus).addToBackStack(null).commit();
-                                CloseDrawer();
+                                try {
+                                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.tccc.mga")));
+                                } catch (android.content.ActivityNotFoundException anfe) {
+                                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.tccc.mga")));
+                                }
                                 break;
                             case 7:
                                 Fragment FragmentTaxi = new Taxi();
@@ -146,6 +149,7 @@ public class MainActivity extends AppCompatActivity {
         headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
                 .withAlternativeProfileHeaderSwitching(false)
+                .withProfileImagesVisible(false)
                 .withSelectionListEnabled(false)
                 .withHeaderBackground(R.drawable.header)
                 .withCompactStyle(compact)
