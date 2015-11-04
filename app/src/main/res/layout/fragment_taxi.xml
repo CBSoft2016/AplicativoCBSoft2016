@@ -3,6 +3,12 @@
     android:layout_height="match_parent"
     tools:context="com.applications.fronchetti.cbsoft2016.Fragmentos.Taxi">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_taxi"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
