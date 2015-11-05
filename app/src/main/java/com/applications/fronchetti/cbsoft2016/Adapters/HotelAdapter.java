@@ -10,15 +10,18 @@ import android.widget.TextView;
 
 import com.applications.fronchetti.cbsoft2016.R;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by vinicius on 28/10/15.
  */
 public class HotelAdapter extends ArrayAdapter<Hotel>{
     Context context;
     int resource;
-    Hotel[] hoteis;
+    List<Hotel> hoteis = new ArrayList<Hotel>();
 
-    public HotelAdapter(Context context, int resource, Hotel[] hoteis) {
+    public HotelAdapter(Context context, int resource, List<Hotel> hoteis) {
         super(context, resource, hoteis);
         this.resource = resource;
         this.context = context;
@@ -32,7 +35,7 @@ public class HotelAdapter extends ArrayAdapter<Hotel>{
             convertView = inflater.inflate(resource, parent, false);
         }
 
-        final Hotel item = hoteis[position];
+        Hotel item = hoteis.get(position);
 
         if(item != null){
             TextView Nome = (TextView) convertView.findViewById(R.id.textHotelNome);

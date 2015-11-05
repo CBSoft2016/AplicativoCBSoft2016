@@ -11,9 +11,9 @@ public class Hotel {
         public String website;
         public String telefone;
         public String endereco;
-        public Drawable imagem;
+        public String imagem;
 
-        public Hotel(String nome, String endereco, String telefone, String website, Drawable imagem){
+        public Hotel(String nome, String endereco, String telefone, String website, String imagem){
             this.nome = nome;
             this.website = website;
             this.telefone = telefone;
@@ -22,11 +22,11 @@ public class Hotel {
     }
 
 
-    public Drawable getImagem() {
+    public String getImagem() {
         return imagem;
     }
 
-    public void setImagem(Drawable imagem) {
+    public void setImagem(String imagem) {
         this.imagem = imagem;
     }
 
