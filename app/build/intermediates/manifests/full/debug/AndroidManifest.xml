@@ -32,6 +32,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.applications.fronchetti.cbsoft2016.Atividades.WebViewActivity"
+            android:label="@string/title_activity_web_view" >
+        </activity>
 
         <meta-data
             android:name="com.google.android.gms.version"

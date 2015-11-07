@@ -903,6 +903,7 @@
     <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_main_login">CBSoft 2016</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
     <string name="title_text">Google Sign-In\nQuickstart</string>
     <string name="titulo_cbsoft">CBSOFT 2016</string>
     <!-- From: file:/home/vinicius/git/AplicativoCBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
