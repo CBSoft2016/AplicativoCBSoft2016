@@ -95,7 +95,7 @@ public class Hospedagem extends Fragment {
     public String loadJSONFromAsset() {
         String json = null;
         try {
-            InputStream is = getActivity().getAssets().open("Hotel.json");
+            InputStream is = getActivity().getAssets().open("hotel_hostel.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
