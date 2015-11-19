@@ -1,7 +1,5 @@
 package com.applications.fronchetti.cbsoft2016.Adapters;
 
-import android.graphics.drawable.Drawable;
-
 /**
  * Created by vinicius on 28/10/15.
  */

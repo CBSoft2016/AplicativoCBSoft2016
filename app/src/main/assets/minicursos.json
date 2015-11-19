@@ -1,0 +1,30 @@
+{
+  "minicursos": [
+    {
+      "id":"1",
+      "titulo": "Web Funcional com Clojure e Clojurescript",
+      "horario":"14:00",
+      "data":"14 de Setembro de 2016",
+      "descricao": "Minicurso voltado para desenvolvimento Clojure e Clojurescript",
+      "local":"E101",
+      "instrutor":"Eduardo Radanovitsck",
+      "localtrabalho":"ThoughtWorks",
+      "imagem":"http://cbsoft.org/articles/0000/0519/Eduardo_Aquiles.jpg",
+      "url":null
+    },
+
+    {
+      "id":"2",
+      "titulo": "Introducao a Gerencia de Portfolios de Projetos",
+      "horario":"14:00",
+      "descricao": "Minicurso voltado para técnicas de gerenciamento de projetos",
+      "data":"15 de Setembro de 2016",
+      "local":"E105",
+      "instrutor":"Cesar de Avila Rodrigues",
+      "localtrabalho":"Avanti Negocios e Tecnologia",
+      "imagem":"http://cbsoft.org/articles/0000/0435/Cesar_Rodrigues_portif_lios_de_projetos.jpg",
+      "url":null
+    }
+  ]
+
+}

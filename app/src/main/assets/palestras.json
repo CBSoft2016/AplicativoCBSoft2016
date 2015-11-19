@@ -1,0 +1,43 @@
+{
+  "palestras": [
+
+    {
+      "idpalestras":"cbsoft2016001",
+      "titulo":"Criando o Sistema Operacional Unix",
+      "data":"2016-09-14",
+      "descricao":"Palestra demonstrando como é o desenvolvimento de um sistema operacional",
+      "horario":"15:30",
+      "local":"Auditório Bloco E",
+      "palestrante":"Linus Torvalds",
+      "trabalho":"Linux Foundation",
+      "imagem":"http://tecnologiaaberta.com.br/wp-content/uploads/2015/01/Linus_Torvalds_cropped.jpg",
+      "url":"http://www.linuxfoundation.org/blogs/linus-torvalds"
+    },
+
+    {
+      "idpalestras":"cbsoft2016002",
+      "titulo":"Supporting Newcomers to Overcome the Barriers to Contribute to Open Source Software Projects",
+      "data":"2016-09-14",
+      "descricao":"Palestra demonstrativa das barreiras em contribuir com software livre.",
+      "local":"Auditório Bloco E",
+      "horario":"13:00",
+      "palestrante":"Igor Fabio Steinmacher",
+      "trabalho":"Coordenador do Curso Ciencia da Computacao, UTFPR-CM",
+      "imagem":"http://src.odiario.com/imagem/2015/07/01/m_div-igor-steinmacher.JPG",
+      "url":"http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4762712T5"
+    },
+
+    {
+      "idpalestras":"cbsoft2016003",
+      "titulo":"On the criteria to be used in decomposing systems into modules",
+      "data":"2016-09-15",
+      "descricao":"Palestra com David Parnas que demonstra a decomposição do sistema em módulos",
+      "local":"Auditório Bloco E",
+      "horario":"13:00",
+      "palestrante":"David Parnas",
+      "trabalho":"Middle Road Software",
+      "imagem":"http://upload.wikimedia.org/wikipedia/commons/e/e4/David_Parnas.jpg",
+      "url":"https://scholar.google.com/citations?user=t8GDoiMAAAAJ"
+    }
+  ]
+}

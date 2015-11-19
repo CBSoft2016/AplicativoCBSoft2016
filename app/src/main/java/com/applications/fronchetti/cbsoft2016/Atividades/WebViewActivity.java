@@ -17,7 +17,7 @@ public class WebViewActivity extends Activity {
         WebView webView = (WebView) findViewById(R.id.webView);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webView.loadUrl("http://www.google.com.br");
+        webView.loadUrl("http://www.taquiapp.com.br/cbsof_projeto/?idpalestra=casa&nome=usuario");
     }
 
 }

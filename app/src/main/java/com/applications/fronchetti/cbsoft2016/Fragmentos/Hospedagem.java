@@ -47,12 +47,11 @@ public class Hospedagem extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_hospedagem, container, false);
-        List<Hotel> Hoteis = new ArrayList<Hotel>();
-        final List<Hotel> Auxiliar = new ArrayList<Hotel>();
+        final List<Hotel> Hoteis = new ArrayList<Hotel>();
+
         try {
             JSONObject obj = new JSONObject(loadJSONFromAsset());
             JSONArray m_jArry = obj.getJSONArray("hotel");
-        //    Hoteis = new Hotel[m_jArry.length()];
             ArrayList<HashMap<String, String>> formList = new ArrayList<HashMap<String, String>>();
             HashMap<String, String> m_li;
 
@@ -80,15 +79,15 @@ public class Hospedagem extends Fragment {
         }
 
         HotelAdapter adapter = new HotelAdapter(getActivity(), R.layout.fragment_hospedagem_item, Hoteis);
-        ListView Lista = (ListView) view.findViewById(R.id.listViewHospedagem);
-        Lista.setAdapter(adapter);
+        final ListView Lista = (ListView) view.findViewById(R.id.listViewHospedagem);
         Lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                System.out.println(Auxiliar.get(position));
+                System.out.println(Hoteis.get(position));
             }
         });
-
+        System.out.println(Lista);
+        Lista.setAdapter(adapter);
         return view;
     }
 
@@ -107,5 +106,4 @@ public class Hospedagem extends Fragment {
         }
         return json;
     }
-
 }
