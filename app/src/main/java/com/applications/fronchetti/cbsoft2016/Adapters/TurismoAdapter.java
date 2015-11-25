@@ -57,84 +57,11 @@ public class TurismoAdapter extends ArrayAdapter<Turismo>{
             TextView Telefone = (TextView) convertView.findViewById(R.id.textTurismoTelefone);
             TextView Endereco = (TextView) convertView.findViewById(R.id.textTurismoEndereco);
             ImageView Imagem = (ImageView) convertView.findViewById(R.id.imageView_turismo);
-            Bitmap bitmap = getBitmap(item.getImagem());
-            String image_path = saveStorage(bitmap, item.getNome().toLowerCase());
-            new loadStorage(Imagem,image_path).execute();
 
             Nome.setText(item.getNome());
             Telefone.setText(item.getTelefone());
             Endereco.setText(item.getEndereco());
         }
         return convertView;
-    }
-
-    private Bitmap getBitmap(String url) {
-        HttpURLConnection urlConnection = null;
-        try {
-            URL uri = new URL(url);
-            urlConnection = (HttpURLConnection) uri.openConnection();
-            int statusCode = urlConnection.getResponseCode();
-
-            InputStream inputStream = urlConnection.getInputStream();
-            if (inputStream != null) {
-                Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
-                return bitmap;
-            }
-        } catch (Exception e) {
-            urlConnection.disconnect();
-            Log.w("ImageDownloader", "Error downloading image from " + url);
-        } finally {
-            if (urlConnection != null) {
-                urlConnection.disconnect();
-            }
-        }
-        return null;
-    }
-
-    private String saveStorage(Bitmap bitmapImage, String file_name){
-        ContextWrapper cw = new ContextWrapper(getContext());
-        File directory = cw.getDir("Images", Context.MODE_PRIVATE);
-        File path = new File(directory,file_name + ".jpg");
-        FileOutputStream Output = null;
-        try {
-            Output = new FileOutputStream(path);
-            bitmapImage.compress(Bitmap.CompressFormat.PNG, 100, Output);
-            Output.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return directory.getAbsolutePath();
-    }
-
-    class loadStorage extends AsyncTask<Object, Void, Bitmap>{
-
-        private ImageView imv;
-        private String path;
-
-        public loadStorage(ImageView image, String path) {
-            this.imv = image;
-            this.path = path;
-        }
-
-        @Override
-        protected Bitmap doInBackground(Object... params) {
-            Bitmap bitmap = null;
-            File file = new File(
-                    Environment.getExternalStorageDirectory().getAbsolutePath() + path);
-
-            if(file.exists()){
-                bitmap = BitmapFactory.decodeFile(file.getAbsolutePath());
-            }
-            return bitmap;
-        }
-        @Override
-        protected void onPostExecute(Bitmap result) {
-            if(result != null && imv != null){
-                imv.setVisibility(View.VISIBLE);
-                imv.setImageBitmap(result);
-            }else{
-                imv.setVisibility(View.GONE);
-            }
-        }
     }
 }
