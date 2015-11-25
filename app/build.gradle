@@ -37,7 +37,6 @@ dependencies {
     compile 'com.mikepenz.iconics:meteocons-typeface:+@aar'
     compile 'com.mikepenz:community-material-typeface:1.2.64.1@aar'
     compile 'com.android.support:design:22.2.0'
-
     compile 'info.hoang8f:fbutton:1.0.5'
 
 

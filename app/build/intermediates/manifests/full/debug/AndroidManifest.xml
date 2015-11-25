@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.applications.fronchetti.cbsoft2016.Atividades.MainLogin"
+            android:name="com.applications.fronchetti.cbsoft2016.Atividades.Login"
             android:label="@string/title_activity_main_login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

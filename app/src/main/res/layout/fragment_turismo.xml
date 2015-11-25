@@ -3,13 +3,13 @@
     xmlns:fbutton="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.applications.fronchetti.cbsoft2016.Fragmentos.Turismo">
+    tools:context="com.applications.fronchetti.cbsoft2016.Fragmentos.Turismos">
 
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/listView_turismo"
+        android:id="@+id/listViewTurismo"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

@@ -1,24 +1,19 @@
 package com.applications.fronchetti.cbsoft2016.Adapters;
 
-/**
- * Created by vinicius on 28/10/15.
- */
-
 public class Hotel {
-        public String nome;
-        public String website;
-        public String telefone;
-        public String endereco;
-        public String imagem;
+    public String nome;
+    public String website;
+    public String telefone;
+    public String endereco;
+    public String imagem;
 
-        public Hotel(String nome, String endereco, String telefone, String website, String imagem){
+    public Hotel(String nome, String endereco, String telefone, String website, String imagem){
             this.nome = nome;
             this.website = website;
             this.telefone = telefone;
             this.endereco = endereco;
             this.imagem = imagem;
     }
-
 
     public String getImagem() {
         return imagem;
@@ -59,6 +54,5 @@ public class Hotel {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
-
 }
 

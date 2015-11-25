@@ -91,6 +91,8 @@ public class Palestras extends Fragment {
 
         PalestrasAdapter adapter = new PalestrasAdapter(getActivity(), R.layout.fragment_palestras_item, Palestras);
         ListView Lista = (ListView) view.findViewById(R.id.listViewPalestras);
+        Lista.setAdapter(adapter);
+
         Lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -137,7 +139,6 @@ public class Palestras extends Fragment {
 
             }
         });
-        Lista.setAdapter(adapter);
         return view;
     }
 

@@ -2820,11 +2820,15 @@ containing a value of this type.
         public static final int line3=0x7f0c00d0;
         public static final int listMode=0x7f0c0011;
         public static final int listViewHospedagem=0x7f0c007d;
+<<<<<<< Updated upstream
         public static final int listViewPalestras=0x7f0c0097;
+=======
+        public static final int listViewPalestras=0x7f0c0098;
+        public static final int listViewRestaurantes=0x7f0c009e;
+        public static final int listViewTurismo=0x7f0c00a7;
+>>>>>>> Stashed changes
         public static final int listView_minicursos=0x7f0c008a;
-        public static final int listView_restaurantes=0x7f0c009e;
         public static final int listView_taxi=0x7f0c00a3;
-        public static final int listView_turismo=0x7f0c00a7;
         public static final int list_item=0x7f0c0048;
         public static final int main_layout=0x7f0c0072;
         public static final int material_drawer_account_header=0x7f0c00b0;

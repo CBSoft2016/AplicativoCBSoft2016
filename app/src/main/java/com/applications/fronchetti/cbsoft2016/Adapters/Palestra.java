@@ -1,10 +1,5 @@
 package com.applications.fronchetti.cbsoft2016.Adapters;
 
-import java.util.Date;
-
-/**
- * Created by Marcia on 08/11/2015.
- */
 public class Palestra {
     public String nome;
     public String data;
@@ -13,8 +8,6 @@ public class Palestra {
     public String trabalho;
     public String imagem;
     public String url;
-
-
     public String local;
 
     public Palestra(String nome, String local, String instrutor, String descricao, String horario,

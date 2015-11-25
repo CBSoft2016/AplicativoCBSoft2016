@@ -2,35 +2,49 @@ package com.applications.fronchetti.cbsoft2016.Adapters;
 
 public class Minicursos {
     String titulo;
-    String horario;
-    String data;
     String descricao;
     String local;
+    String local_trabalho;
+    String data;
+    String horario;
     String instrutor;
-    String localdetrabalho;
     String imagem;
-    String url;
+    String website;
 
-    public Minicursos(String titulo, String horario, String data, String descricao, String local, String instrutor,
-                      String localdetrabalho, String imagem, String url){
+    public Minicursos(String titulo, String horario, String data, String descricao, String local, String instrutor, String local_trabalho, String imagem, String website){
         this.titulo = titulo;
         this.horario = horario;
         this.data = data;
         this.descricao = descricao;
         this.local = local;
         this.instrutor = instrutor;
-        this.localdetrabalho = localdetrabalho;
+        this.local_trabalho = local_trabalho;
         this.imagem = imagem;
-        this.url = url;
-
+        this.website = website;
     }
 
-    public String getTitulo() {
-        return titulo;
+    public String getWebsite() {
+        return website;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public void setWebsite(String website) {
+        this.website = website;
+    }
+
+    public String getImagem() {
+        return imagem;
+    }
+
+    public void setImagem(String imagem) {
+        this.imagem = imagem;
+    }
+
+    public String getInstrutor() {
+        return instrutor;
+    }
+
+    public void setInstrutor(String instrutor) {
+        this.instrutor = instrutor;
     }
 
     public String getHorario() {
@@ -49,36 +63,12 @@ public class Minicursos {
         this.data = data;
     }
 
-    public String getDescricao() {
-        return descricao;
+    public String getLocalTrabalho() {
+        return local_trabalho;
     }
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
-    public String getLocaldetrabalho() {
-        return localdetrabalho;
-    }
-
-    public void setLocaldetrabalho(String localdetrabalho) {
-        this.localdetrabalho = localdetrabalho;
-    }
-
-    public String getImagem() {
-        return imagem;
-    }
-
-    public void setImagem(String imagem) {
-        this.imagem = imagem;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
+    public void setLocalTrabalho(String local_trabalho) {
+        this.local_trabalho = local_trabalho;
     }
 
     public String getLocal() {
@@ -89,11 +79,19 @@ public class Minicursos {
         this.local = local;
     }
 
-    public String getInstrutor() {
-        return instrutor;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setInstrutor(String instrutor) {
-        this.instrutor = instrutor;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 }

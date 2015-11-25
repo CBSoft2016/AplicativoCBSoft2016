@@ -13,13 +13,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.app.Fragment;
 
-import com.applications.fronchetti.cbsoft2016.Fragmentos.Hospedagem;
+import com.applications.fronchetti.cbsoft2016.Fragmentos.Hoteis;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Inicio;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Minicursos;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Palestras;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Restaurantes;
-import com.applications.fronchetti.cbsoft2016.Fragmentos.Taxi;
-import com.applications.fronchetti.cbsoft2016.Fragmentos.Turismo;
+import com.applications.fronchetti.cbsoft2016.Fragmentos.Taxis;
+import com.applications.fronchetti.cbsoft2016.Fragmentos.Turismos;
 import com.applications.fronchetti.cbsoft2016.R;
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.materialdrawer.AccountHeader;
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                                 CloseDrawer();
                                 break;
                             case 5:
-                                Fragment FragmentHospedagem = new Hospedagem();
+                                Fragment FragmentHospedagem = new Hoteis();
                                 getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentHospedagem).addToBackStack(null).commit();
                                 CloseDrawer();
                                 break;
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
                                 }
                                 break;
                             case 7:
-                                Fragment FragmentTaxi = new Taxi();
+                                Fragment FragmentTaxi = new Taxis();
                                 getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentTaxi).addToBackStack(null).commit();
                                 CloseDrawer();
                                 break;
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
                                 CloseDrawer();
                                 break;
                             case 9:
-                                Fragment FragmentTurismo = new Turismo();
+                                Fragment FragmentTurismo = new Turismos();
                                 getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentTurismo).addToBackStack(null).commit();
                                 CloseDrawer();
                                 break;
