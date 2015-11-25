@@ -74,7 +74,6 @@ public class Login extends Activity implements
 
         // Set up button click listeners
         findViewById(R.id.sign_in_button).setOnClickListener(this);
-        findViewById(R.id.sign_out_button).setOnClickListener(this);
         findViewById(R.id.disconnect_button).setOnClickListener(this);
 
         // Large sign-in
@@ -98,13 +97,13 @@ public class Login extends Activity implements
                 .build();
         // [END create_google_api_client]
 
-        Button offline = (Button) findViewById(R.id.offline_button);
+        /*Button offline = (Button) findViewById(R.id.offline_button);
         offline.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 callIntent("Visitante", "visitante@cbsoft.com");
             }
-        });
+        });*/
 
     }
     private void updateUI(boolean isSignedIn) {
@@ -125,7 +124,7 @@ public class Login extends Activity implements
 
                 findViewById(R.id.offline_button).setEnabled(false);
 
-                callIntent(name, email);
+                //callIntent(name, email);
             } else {
                 // If getCurrentPerson returns null there is generally some error with the
                 // configuration of the application (invalid Client ID, Plus API not enabled, etc).
@@ -135,8 +134,9 @@ public class Login extends Activity implements
 
             // Set button visibility
             findViewById(R.id.sign_in_button).setVisibility(View.GONE);
-            findViewById(R.id.sign_out_button).setVisibility(View.VISIBLE);
+            findViewById(R.id.offline_button).setVisibility(View.GONE);
             findViewById(R.id.disconnect_button).setVisibility(View.VISIBLE);
+            findViewById(R.id.entrar_button).setVisibility(View.VISIBLE);
         } else {
             // Show signed-out message and clear email field
             mStatus.setText(R.string.signed_out);
@@ -144,8 +144,9 @@ public class Login extends Activity implements
 
             // Set button visibility
             findViewById(R.id.sign_in_button).setEnabled(true);
+            findViewById(R.id.entrar_button).setVisibility(View.GONE);
+            findViewById(R.id.offline_button).setVisibility(View.VISIBLE);
             findViewById(R.id.sign_in_button).setVisibility(View.VISIBLE);
-            findViewById(R.id.sign_out_button).setVisibility(View.GONE);
             findViewById(R.id.disconnect_button).setVisibility(View.GONE);
         }
     }
@@ -339,9 +340,6 @@ public class Login extends Activity implements
         switch (v.getId()) {
             case R.id.sign_in_button:
                 onSignInClicked();
-                break;
-            case R.id.sign_out_button:
-                onSignOutClicked();
                 break;
             case R.id.disconnect_button:
                 onDisconnectClicked();

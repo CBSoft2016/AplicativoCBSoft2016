@@ -899,9 +899,9 @@
     <string name="secao_cidade">Informações da Cidade</string>
     <string name="sign_out">Sign Out</string>
     <string name="signed_in_err">"Error: please check logs."</string>
-    <string name="signed_in_fmt">Signed in as: %s</string>
-    <string name="signed_out">Signed out</string>
-    <string name="signing_in">Signing in…</string>
+    <string name="signed_in_fmt">Logado como: %s</string>
+    <string name="signed_out">Você não está logado</string>
+    <string name="signing_in">Logando…</string>
     <!-- From: file:/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>

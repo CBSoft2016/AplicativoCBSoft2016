@@ -16,33 +16,17 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/google_icon"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="@dimen/g_top_margin"
-            android:contentDescription="@string/desc_google_icon"
-            android:src="@mipmap/ic_launcher" />
-
         <TextView
             android:id="@+id/title_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="CBSOFT - 2016"
+            android:text="Bem Vindo                               CBSOFT - 2016"
             android:gravity="center"
             android:textColor="@android:color/black"
             android:textSize="36sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/status"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/signed_out"
-            android:textColor="@android:color/black"
-            android:textSize="14sp" />
+            android:textStyle="bold"
+            android:layout_marginTop="80dp" />
 
         <TextView
             android:id="@+id/email"
@@ -50,6 +34,15 @@
             android:layout_height="wrap_content"
             android:textColor="@android:color/black"
             android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signed_out"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
 
@@ -68,28 +61,6 @@
             android:visibility="visible"
             tools:visibility="gone" />
 
-            <info.hoang8f.widget.FButton
-            android:id="@+id/sign_out_button"
-            android:layout_width="180dp"
-            android:layout_height="40dp"
-            android:drawablePadding="0dp"
-            android:minHeight="80dp"
-            android:minWidth="250dp"
-            android:paddingLeft="30dp"
-            android:paddingRight="20dp"
-            android:paddingTop="-5dp"
-            android:text="SIGN OUT"
-            android:textColor="@android:color/white"
-            fbutton:cornerRadius="5dp"
-            fbutton:shadowEnabled="true"
-            fbutton:shadowHeight="2dp"
-            fbutton:buttonColor="#c23737"
-                android:textStyle="bold"
-            android:textSize="14dp"
-                android:layout_alignBottom="@+id/space"
-                android:layout_toLeftOf="@+id/space"
-                android:layout_toStartOf="@+id/space" />
-
         <info.hoang8f.widget.FButton
             android:id="@+id/disconnect_button"
             android:layout_width="180dp"
@@ -100,7 +71,7 @@
             android:paddingLeft="30dp"
             android:paddingRight="20dp"
             android:paddingTop="-5dp"
-            android:text="DISCONNECT"
+            android:text="DESCONECTAR"
             android:textColor="@android:color/white"
             fbutton:cornerRadius="5dp"
             fbutton:shadowEnabled="true"
@@ -108,30 +79,57 @@
             fbutton:buttonColor="#c23737"
             android:textStyle="bold"
             android:textSize="14dp"
-            android:layout_alignBottom="@+id/space"
-            android:layout_toRightOf="@+id/space"
-            android:layout_toEndOf="@+id/space" />
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/space"
+            android:layout_alignStart="@+id/space"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp" />
 
         <info.hoang8f.widget.FButton
-            android:id="@+id/offline_button"
-            android:layout_width="215dp"
-            android:layout_height="36dp"
+            android:id="@+id/entrar_button"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
             android:drawablePadding="0dp"
             android:minHeight="80dp"
             android:minWidth="250dp"
             android:paddingLeft="30dp"
             android:paddingRight="20dp"
             android:paddingTop="-5dp"
-            android:text="Acessar offline"
+            android:text="ENTRAR"
             android:textColor="@android:color/white"
-            fbutton:cornerRadius="2dp"
-            fbutton:shadowEnabled="false"
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowEnabled="true"
             fbutton:shadowHeight="2dp"
-            fbutton:buttonColor="#3f3baf"
+            fbutton:buttonColor="#c23737"
+            android:textStyle="bold"
             android:textSize="14dp"
-            android:layout_below="@+id/sign_in_button"
+            android:layout_alignTop="@+id/disconnect_button"
+            android:layout_alignRight="@+id/space"
+            android:layout_alignEnd="@+id/space"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/offline_button"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:drawablePadding="0dp"
+            android:minHeight="80dp"
+            android:minWidth="250dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:paddingTop="-5dp"
+            android:text="ENTRAR OFFLINE"
+            android:textColor="@android:color/white"
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="2dp"
+            fbutton:buttonColor="#c23737"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp" />
+            android:layout_marginBottom="5dp" />
 
         <Space
             android:layout_width="20px"
