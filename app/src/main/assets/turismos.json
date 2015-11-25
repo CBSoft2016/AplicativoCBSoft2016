@@ -1,0 +1,40 @@
+{
+  "pontos_turisticos":[
+
+    {
+      "id": "1",
+      "ponto_turistico": "Basilica Nossa Senhora da Gloria",
+      "endereco": "Avenida Tiradentes, Centro",
+      "telefone": "(44) 3227 - 1993",
+      "website": "http://arquidiocesedemaringa.org.br/",
+      "imagem":"http://farm1.static.flickr.com/148/409482674_a432ea32a7_b.jpg"
+    },
+
+    {
+      "id": "2",
+      "ponto_turistico": "Ody Park Aquatico Resort Hotel",
+      "endereco": "Rodovia PR 317, s/n - Zona Rural, Iguaracu - PR,",
+      "telefone": "(44) 3029 - 2727",
+      "website": "http://www.odypark.com.br/",
+      "imagem":"http://www.odyparkhotel.com.br/sistema/fotos/grande/foto42.jpg"
+    },
+
+    {
+      "id": "3",
+      "ponto_turistico": "Teatro Calil Haddad",
+      "endereco": "Av. Dr. Luiz Teixeira Mendes, 2.500",
+      "telefone": "(44) 3224 - 0485",
+      "website": null,
+      "imagem":"http://www2.maringa.pr.gov.br/sistema/imagens/gd_7c57ac684397.jpg"
+    },
+
+    {
+      "id": "4",
+      "ponto_turistico": "Salto Bandeirantes - Hotel Fazenda e Estacao de Lazer",
+      "endereco": "Rod. PR 317 - KM 47,86770-000, Santa Fe, Parana, Brasil ",
+      "telefone": "(44) 3247 - 3295",
+      "website": "http://www.saltobandeirantes.com.br/",
+      "imagem":"http://www.pagliarinimarathonbike.com.br/wp-content/uploads/2014/11/Salto-Bandeirantes-PMB6-1.jpg"
+    }
+  ]
+}

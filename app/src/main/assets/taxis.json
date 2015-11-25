@@ -1,0 +1,24 @@
+{
+  "pontos_taxi":[
+    {
+      "id":"1",
+      "nome_ponto":"Taxi Maringa",
+      "telefone":"(44) 3029 - 9195",
+      "url":"http://www.taximaringa.com.br/index.php"
+    },
+
+    {
+      "id":"2",
+      "nome_ponto":"Ponto de Taxi Aeroporto",
+      "telefone":"(44) 3266 - 6161",
+      "url":"http://www.aeroportodemaringa.com.br/novosite/taxi"
+    },
+
+    {
+      "id": "3",
+      "nome_ponto":"Ponto de Taxi n 25 Avenida Tuiuti",
+      "telefone":"(44) 3268 - 1451",
+      "url":null
+    }
+  ]
+}

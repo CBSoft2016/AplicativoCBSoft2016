@@ -1,0 +1,40 @@
+{
+  "restaurantes":[
+
+    {
+      "id": "1",
+      "nome_restaurante": "Habanero Grill",
+      "endereco": "Avenida Maua, 2694",
+      "telefone": "(44) 8840 - 9765 ",
+      "website": "http://www.habanerorestaurante.com.br/",
+      "imagem":"http://www.habanerorestaurante.com.br/wp-content/themes/twentyeleven/img/banners/2.jpg"
+    },
+
+    {
+      "id": "2",
+      "nome_restaurante": "Vaca Louca Cafe Vegetariano",
+      "endereco": "Av. Cerro Azul, 228",
+      "telefone": "(44) 3346 - 4178 ",
+      "website": "http://vacaloucacafevegetariano.blogspot.com.br/#_=_",
+      "imagem":"http://4.bp.blogspot.com/-_8DRsoBO2g8/TyGF9S87HMI/AAAAAAAAAOM/L4EUy252ATU/s840/vaca_louca_caf%25C3%25A9_0035.jpg"
+    },
+
+    {
+      "id": "3",
+      "nome_restaurante": "Temakeria Sakura",
+      "endereco": "Av. Tiradentes 192",
+      "telefone": "(44) 2103 - 3235",
+      "website": null,
+      "imagem":"http://media-cdn.tripadvisor.com/media/photo-s/05/cb/a7/4f/temakeria-sakura.jpg"
+    },
+
+    {
+      "id": "4",
+      "nome_restaurante": "Pavan",
+      "endereco": "PR-317, km 3",
+      "telefone": "(44) 3266 - 1500",
+      "website": "http://www.pavanfastgrill.com.br/#_=_",
+      "imagem":"http://media-cdn.tripadvisor.com/media/photo-s/03/75/ab/d0/pavan.jpg"
+    }
+  ]
+}
