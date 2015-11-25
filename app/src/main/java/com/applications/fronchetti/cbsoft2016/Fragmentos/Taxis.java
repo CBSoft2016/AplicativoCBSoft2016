@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
+import com.applications.fronchetti.cbsoft2016.Adapters.Taxi;
+import com.applications.fronchetti.cbsoft2016.Adapters.TaxiAdapter;
 import com.applications.fronchetti.cbsoft2016.Adapters.Turismo;
 import com.applications.fronchetti.cbsoft2016.Adapters.TurismoAdapter;
 import com.applications.fronchetti.cbsoft2016.R;
@@ -35,7 +37,7 @@ public class Taxis extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_taxi, container, false);
-        final List<Turismo> Turismos = new ArrayList<Turismo>();
+        final List<Taxi> Taxis = new ArrayList<Taxi>();
 
         try {
             JSONObject obj = new JSONObject(loadJSONFromAsset());
@@ -46,19 +48,14 @@ public class Taxis extends Fragment {
             for (int i = 0; i < m_jArry.length(); i++) {
 
                 JSONObject jo_inside = m_jArry.getJSONObject(i);
-                String nome = jo_inside.getString("ponto_turistico");
-                String endereco = jo_inside.getString("endereco");
-                String telefone = jo_inside.getString("telefone");
-                String imagem = jo_inside.getString("imagem");
+                String nome = jo_inside.getString("nome_ponto");
+                String endereco = jo_inside.getString("telefone");
                 String website = jo_inside.getString("website");
-                System.out.println(endereco + telefone + imagem + website);
-                Turismos.add(new Turismo(nome, endereco, telefone, imagem, website));
+                Taxis.add(new Taxi(nome, endereco, website));
 
                 m_li = new HashMap<String, String>();
                 m_li.put("ponto_turistico", nome);
                 m_li.put("endereco", endereco);
-                m_li.put("telefone", telefone);
-                m_li.put("imagem", imagem);
                 m_li.put("website", website);
                 formList.add(m_li);
             }
@@ -66,8 +63,8 @@ public class Taxis extends Fragment {
             e.printStackTrace();
         }
 
-        TurismoAdapter adapter = new TurismoAdapter(getActivity(), R.layout.fragment_turismo_item, Turismos);
-        ListView Lista = (ListView) view.findViewById(R.id.listViewTurismo);
+        TaxiAdapter adapter = new TaxiAdapter(getActivity(), R.layout.fragment_taxi_item, Taxis);
+        ListView Lista = (ListView) view.findViewById(R.id.listViewTaxi);
         Lista.setAdapter(adapter);
 
         return view;

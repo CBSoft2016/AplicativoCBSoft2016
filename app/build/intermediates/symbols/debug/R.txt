@@ -1075,15 +1075,11 @@ int id line1 0x7f0c00cc
 int id line3 0x7f0c00d0
 int id listMode 0x7f0c0011
 int id listViewHospedagem 0x7f0c007d
-<<<<<<< Updated upstream
 int id listViewPalestras 0x7f0c0097
-=======
-int id listViewPalestras 0x7f0c0098
 int id listViewRestaurantes 0x7f0c009e
+int id listViewTaxi 0x7f0c00a3
 int id listViewTurismo 0x7f0c00a7
->>>>>>> Stashed changes
 int id listView_minicursos 0x7f0c008a
-int id listView_taxi 0x7f0c00a3
 int id list_item 0x7f0c0048
 int id main_layout 0x7f0c0072
 int id material_drawer_account_header 0x7f0c00b0
