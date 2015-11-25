@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:2:1-35:12
+ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:2:1-37:12
 	xmlns:android
 		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:2:11-69
 	package
@@ -25,8 +25,16 @@ uses-permission#android.permission.USE_CREDENTIALS
 ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:7:5-74
 	android:name
 		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:7:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:9:22-77
 application
-ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:9:5-33:19
+ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:11:5-35:19
 MERGED from [com.android.support:appcompat-v7:23.1.0] /home/fronchetti/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.0] /home/fronchetti/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.1.0] /home/fronchetti/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
@@ -50,43 +58,43 @@ MERGED from [com.android.support:appcompat-v7:23.1.0] /home/fronchetti/Aplicativ
 MERGED from [com.android.support:support-v4:23.1.0] /home/fronchetti/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.0] /home/fronchetti/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:14:9-41
 	android:allowBackup
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:13:9-43
 	android:theme
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:14:9-87
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:16:9-87
 activity#com.applications.fronchetti.cbsoft2016.Atividades.MainActivity
-ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:15:9-19:20
+ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:17:9-21:20
 	android:name
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:15:19-58
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:17:19-58
 intent-filter#android.intent.action.MAIN
-ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:16:13-18:29
+ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:18:13-20:29
 action#android.intent.action.MAIN
-ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:19:25-66
 activity#com.applications.fronchetti.cbsoft2016.Atividades.Login
-ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:20:9-28:20
+ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:22:9-30:20
 	android:label
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:22:13-62
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:24:13-62
 	android:name
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:21:13-45
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:23:13-45
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:23:13-27:29
+ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:25:13-29:29
 category#android.intent.category.LAUNCHER
-ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:28:27-74
 activity#com.applications.fronchetti.cbsoft2016.Atividades.WebViewActivity
-ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:29:9-32:20
+ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:31:9-34:20
 	android:label
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:31:13-60
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:33:13-60
 	android:name
-		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:30:13-55
+		ADDED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml:32:13-55
 uses-sdk
 INJECTED from /home/fronchetti/Aplicativo_CBSoft2016/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.0] /home/fronchetti/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
