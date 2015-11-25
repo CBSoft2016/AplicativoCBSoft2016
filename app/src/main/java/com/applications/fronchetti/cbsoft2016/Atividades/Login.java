@@ -59,6 +59,8 @@ public class Login extends Activity implements
     private boolean mShouldResolve = false;
     // [END resolution_variables]
 
+    Button entrar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -97,13 +99,13 @@ public class Login extends Activity implements
                 .build();
         // [END create_google_api_client]
 
-        /*Button offline = (Button) findViewById(R.id.offline_button);
+        Button offline = (Button) findViewById(R.id.offline_button);
         offline.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 callIntent("Visitante", "visitante@cbsoft.com");
             }
-        });*/
+        });
 
     }
     private void updateUI(boolean isSignedIn) {
@@ -111,7 +113,7 @@ public class Login extends Activity implements
             Person currentPerson = Plus.PeopleApi.getCurrentPerson(mGoogleApiClient);
             if (currentPerson != null) {
                 // Show signed-in user's name
-                String name = currentPerson.getDisplayName();
+                final String name = currentPerson.getDisplayName();
                 mStatus.setText(getString(R.string.signed_in_fmt, name));
 
                 // Show users' email address (which requires GET_ACCOUNTS permission)
@@ -120,11 +122,20 @@ public class Login extends Activity implements
                     ((TextView) findViewById(R.id.email)).setText(currentAccount);
                 }
 
-                String email = Plus.AccountApi.getAccountName(mGoogleApiClient);
+                final String email = Plus.AccountApi.getAccountName(mGoogleApiClient);
 
                 findViewById(R.id.offline_button).setEnabled(false);
 
-                //callIntent(name, email);
+                findViewById(R.id.sign_in_button).setVisibility(View.GONE);
+                findViewById(R.id.offline_button).setVisibility(View.GONE);
+
+                findViewById(R.id.entrar_button).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        callIntent(name, email);
+                    }
+                });
+
             } else {
                 // If getCurrentPerson returns null there is generally some error with the
                 // configuration of the application (invalid Client ID, Plus API not enabled, etc).
