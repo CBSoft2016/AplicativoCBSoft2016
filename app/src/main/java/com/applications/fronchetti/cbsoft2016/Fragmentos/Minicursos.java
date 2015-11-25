@@ -9,14 +9,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 import android.provider.CalendarContract.Events;
 import android.widget.TextView;
 
-import com.applications.fronchetti.cbsoft2016.Adapters.Hotel;
-import com.applications.fronchetti.cbsoft2016.Adapters.HotelAdapter;
 import com.applications.fronchetti.cbsoft2016.Adapters.MinicursosAdapter;
 import com.applications.fronchetti.cbsoft2016.R;
+import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -25,7 +25,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.GregorianCalendar;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 
@@ -110,21 +110,26 @@ public class Minicursos extends Fragment {
                 TextView descricao_minicurso = (TextView) dialog.findViewById(R.id.textViewDescricao);
                 descricao_minicurso.setText(minicursos.getDescricao());
 
-                TextView text_agendar = (TextView) dialog.findViewById(R.id.textViewAgendar);
-                text_agendar.setOnClickListener(new View.OnClickListener() {
+                Button button_agendar = (Button) dialog.findViewById(R.id.f_agendar_button);
+                button_agendar.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         String titulo = minicursos.getTitulo();
                         String local = minicursos.getLocal();
                         String descricao = minicursos.getDescricao();
 
-                        String data = minicursos.getData();
-                        String[] separated = data.split("-");
-                        int ano = Integer.parseInt(separated[0]);
-                        int mes = Integer.parseInt(separated[1]);
-                        int dia = Integer.parseInt(separated[2]);
+                        String date = minicursos.getData();
+                        String[] separated_date = date.split("-");
+                        int ano = Integer.parseInt(separated_date[0]);
+                        int mes = Integer.parseInt(separated_date[1]);
+                        int dia = Integer.parseInt(separated_date[2]);
 
-                        calendarMinicursos(titulo, local, descricao, ano, mes, dia);
+                        String hour = minicursos.getHorario();
+                        String [] separated_hour = hour.split(":");
+                        int hours = Integer.parseInt(separated_hour[0]);
+                        int minutes = Integer.parseInt(separated_hour[1]);
+
+                        calendarMinicursos(titulo, local, descricao, ano, mes, dia, hours, minutes);
                     }
                 });
                 dialog.show();
@@ -150,21 +155,26 @@ public class Minicursos extends Fragment {
         return json;
     }
 
-    public void calendarMinicursos(String titulo, String local, String descricao, int ano, int mes, int dia){
+    public void calendarMinicursos(String titulo, String local, String descricao, int ano, int mes, int dia,
+                                   int horas, int minutos){
+
+        Calendar beginTime = Calendar.getInstance();
+        beginTime.set(ano, mes-1, dia, horas, minutos);
+        Calendar endtime = Calendar.getInstance();
+        endtime.set(ano, mes-1, dia, horas+1, minutos);
+
         Intent intent_calendar = new Intent(Intent.ACTION_INSERT);
-        intent_calendar.setData(CalendarContract.Events.CONTENT_URI);
+        intent_calendar.setData(Events.CONTENT_URI);
 
         //Configurações do evento.
         intent_calendar.putExtra(Events.TITLE, titulo);
         intent_calendar.putExtra(Events.EVENT_LOCATION, local);
         intent_calendar.putExtra(Events.DESCRIPTION, descricao);
 
-        //Configuração de data do evento
-        GregorianCalendar calDate = new GregorianCalendar(ano, dia, mes);
         intent_calendar.putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME,
-                calDate.getTimeInMillis());
+                beginTime.getTimeInMillis());
         intent_calendar.putExtra(CalendarContract.EXTRA_EVENT_END_TIME,
-                calDate.getTimeInMillis());
+                endtime.getTimeInMillis());
 
         startActivity(intent_calendar);
     }

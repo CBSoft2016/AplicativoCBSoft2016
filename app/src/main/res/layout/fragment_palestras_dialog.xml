@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="500dp"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:fbutton="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout
-    android:layout_width="wrap_content"
-    android:layout_height="250dp" >
+    android:layout_height="match_parent">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,7 +14,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
         android:gravity="center" />
 
     <TextView
@@ -119,28 +115,67 @@
         android:layout_marginTop="3dp"
         android:autoLink="web" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textViewDescricao"
+        android:layout_alignRight="@+id/textViewDescricao"
+        android:layout_alignEnd="@+id/textViewDescricao"
+        android:layout_marginTop="15dp"
+        android:background="#a2a2a2">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/f_agendar_button"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:drawablePadding="0dp"
+            android:minHeight="80dp"
+            android:minWidth="250dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:paddingTop="-5dp"
             android:text="AGENDAR"
-            android:id="@+id/textViewAgendar"
-            android:layout_marginTop="51dp"
+            android:textColor="@android:color/white"
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="2dp"
+            fbutton:buttonColor="#c23737"
             android:textStyle="bold"
-            android:textSize="25dp"
-            android:layout_below="@+id/textViewDescricao"
-            android:layout_toRightOf="@+id/textViewLocal"
-            android:layout_toEndOf="@+id/textViewLocal" />
+            android:textSize="14dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/space3"
+            android:layout_toEndOf="@+id/space3"
+            android:layout_marginRight="10dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <info.hoang8f.widget.FButton
+            android:id="@+id/f_chat_button"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:drawablePadding="0dp"
+            android:minHeight="80dp"
+            android:minWidth="250dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:paddingTop="-5dp"
             android:text="CHAT"
-            android:id="@+id/textViewChat"
+            android:textColor="@android:color/white"
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="2dp"
+            fbutton:buttonColor="#c23737"
             android:textStyle="bold"
-            android:textSize="25dp"
-            android:layout_alignTop="@+id/textViewAgendar"
-            android:layout_alignLeft="@+id/textViewData"
-            android:layout_alignStart="@+id/textViewData" />
+            android:textSize="14dp"
+            android:layout_alignTop="@+id/f_agendar_button"
+            android:layout_toLeftOf="@+id/space3"
+            android:layout_toStartOf="@+id/space3"
+            android:layout_marginLeft="10dp" />
 
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/space3" />
     </RelativeLayout>
-</ScrollView>
+
+</RelativeLayout>

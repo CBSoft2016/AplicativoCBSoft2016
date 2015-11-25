@@ -2790,8 +2790,9 @@ containing a value of this type.
         public static final int exitUntilCollapsed=0x7f0c001d;
         public static final int expand_activities_button=0x7f0c0045;
         public static final int expanded_menu=0x7f0c0058;
+        public static final int f_agendar_button=0x7f0c0084;
+        public static final int f_chat_button=0x7f0c009a;
         public static final int f_hospedagem_button=0x7f0c0085;
-        public static final int f_minicuros_button=0x7f0c0084;
         public static final int f_onibus_button=0x7f0c0087;
         public static final int f_palestras_button=0x7f0c0082;
         public static final int f_restaurantes_button=0x7f0c0088;
@@ -2819,7 +2820,7 @@ containing a value of this type.
         public static final int line3=0x7f0c00d0;
         public static final int listMode=0x7f0c0011;
         public static final int listViewHospedagem=0x7f0c007d;
-        public static final int listViewPalestras=0x7f0c0098;
+        public static final int listViewPalestras=0x7f0c0097;
         public static final int listView_minicursos=0x7f0c008a;
         public static final int listView_restaurantes=0x7f0c009e;
         public static final int listView_taxi=0x7f0c00a3;
@@ -2899,6 +2900,7 @@ containing a value of this type.
         public static final int snackbar_text=0x7f0c00ac;
         public static final int space=0x7f0c0079;
         public static final int space2=0x7f0c0083;
+        public static final int space3=0x7f0c0099;
         public static final int spacer=0x7f0c004c;
         public static final int split_action_bar=0x7f0c000e;
         public static final int src_atop=0x7f0c0023;
@@ -2914,9 +2916,9 @@ containing a value of this type.
         public static final int textHotelEndereco=0x7f0c007f;
         public static final int textHotelNome=0x7f0c007e;
         public static final int textHotelTelefone=0x7f0c0080;
-        public static final int textMinicursoInstrutor=0x7f0c0097;
+        public static final int textMinicursoInstrutor=0x7f0c0096;
         public static final int textMinicursoLocal=0x7f0c0095;
-        public static final int textMinicursoNome=0x7f0c0096;
+        public static final int textMinicursoNome=0x7f0c0094;
         public static final int textPalestraInstrutor=0x7f0c009d;
         public static final int textPalestraLocal=0x7f0c009c;
         public static final int textPalestraNome=0x7f0c009b;
@@ -2933,14 +2935,12 @@ containing a value of this type.
         public static final int textView5=0x7f0c008c;
         public static final int textView6=0x7f0c008d;
         public static final int textView7=0x7f0c008e;
-        public static final int textViewAgendar=0x7f0c0094;
-        public static final int textViewChat=0x7f0c009a;
         public static final int textViewData=0x7f0c0091;
         public static final int textViewDescricao=0x7f0c0090;
         public static final int textViewLocal=0x7f0c0092;
         public static final int textViewMinistrante=0x7f0c0093;
         public static final int textViewNomeMinicurso=0x7f0c008b;
-        public static final int textViewPalestrante=0x7f0c0099;
+        public static final int textViewPalestrante=0x7f0c0098;
         public static final int time=0x7f0c00cd;
         public static final int title=0x7f0c004a;
         public static final int title_template=0x7f0c004f;

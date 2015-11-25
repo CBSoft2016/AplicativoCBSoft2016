@@ -29,7 +29,7 @@
         android:textSize="14dp" />
 
     <info.hoang8f.widget.FButton
-        android:id="@+id/f_minicuros_button"
+        android:id="@+id/f_agendar_button"
         android:layout_width="180dp"
         android:layout_height="40dp"
         android:drawablePadding="0dp"
@@ -117,8 +117,8 @@
         android:textStyle="bold"
         android:textSize="14dp"
         android:layout_below="@+id/f_hospedagem_button"
-        android:layout_alignLeft="@+id/f_minicuros_button"
-        android:layout_alignStart="@+id/f_minicuros_button"
+        android:layout_alignLeft="@+id/f_agendar_button"
+        android:layout_alignStart="@+id/f_agendar_button"
         android:layout_marginTop="5dp"
         android:layout_marginRight="10dp" />
 
