@@ -48,8 +48,9 @@
 
     <string name="icon_android">#xf236;</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_opening">Opening</string>
 
 </resources>

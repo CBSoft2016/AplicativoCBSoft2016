@@ -908,6 +908,7 @@
     <!-- From: file:/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_main_login">CBSoft 2016</string>
+    <string name="title_activity_opening">Opening</string>
     <string name="title_activity_web_view">WebViewActivity</string>
     <string name="title_text">Google Sign-In\nQuickstart</string>
     <string name="titulo_cbsoft">CBSOFT 2016</string>

@@ -16,6 +16,7 @@ import android.provider.CalendarContract.Events;
 
 import com.applications.fronchetti.cbsoft2016.Adapters.Palestra;
 import com.applications.fronchetti.cbsoft2016.Adapters.PalestrasAdapter;
+import com.applications.fronchetti.cbsoft2016.Atividades.WebViewActivity;
 import com.applications.fronchetti.cbsoft2016.R;
 
 import org.json.JSONArray;
@@ -112,6 +113,15 @@ public class Palestras extends Fragment {
                 palestrante_palestra.setText(palestra.getInstrutor());
                 TextView descricao_palestra = (TextView) dialog.findViewById(R.id.textViewDescricao);
                 descricao_palestra.setText(palestra.getDescricao());
+
+                Button button_chat = (Button) dialog.findViewById(R.id.f_chat_button);
+                button_chat.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i_chat = new Intent(getActivity(), WebViewActivity.class);
+                        startActivity(i_chat);
+                    }
+                });
 
                 Button button_agendar = (Button) dialog.findViewById(R.id.f_agendar_button);
                 button_agendar.setOnClickListener(new View.OnClickListener() {

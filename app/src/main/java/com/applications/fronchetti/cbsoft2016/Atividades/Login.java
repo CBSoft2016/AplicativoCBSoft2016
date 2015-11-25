@@ -78,6 +78,12 @@ public class Login extends Activity implements
         findViewById(R.id.sign_in_button).setOnClickListener(this);
         findViewById(R.id.disconnect_button).setOnClickListener(this);
 
+        //Gambis monstra
+        findViewById(R.id.entrar_button).setVisibility(View.GONE);
+        findViewById(R.id.offline_button).setVisibility(View.GONE);
+        findViewById(R.id.sign_in_button).setVisibility(View.GONE);
+        findViewById(R.id.disconnect_button).setVisibility(View.GONE);
+
         // Large sign-in
         ((SignInButton) findViewById(R.id.sign_in_button)).setSize(SignInButton.SIZE_WIDE);
         ((SignInButton) findViewById(R.id.sign_in_button)).setColorScheme(SignInButton.COLOR_DARK);
@@ -124,10 +130,10 @@ public class Login extends Activity implements
 
                 final String email = Plus.AccountApi.getAccountName(mGoogleApiClient);
 
-                findViewById(R.id.offline_button).setEnabled(false);
+                //findViewById(R.id.offline_button).setEnabled(false);
 
-                findViewById(R.id.sign_in_button).setVisibility(View.GONE);
-                findViewById(R.id.offline_button).setVisibility(View.GONE);
+                //findViewById(R.id.sign_in_button).setVisibility(View.GONE);
+                //findViewById(R.id.offline_button).setVisibility(View.GONE);
 
                 findViewById(R.id.entrar_button).setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -144,21 +150,21 @@ public class Login extends Activity implements
             }
 
             // Set button visibility
-            findViewById(R.id.sign_in_button).setVisibility(View.GONE);
-            findViewById(R.id.offline_button).setVisibility(View.GONE);
+            findViewById(R.id.sign_in_button).setVisibility(View.INVISIBLE);
+            findViewById(R.id.offline_button).setVisibility(View.INVISIBLE);
             findViewById(R.id.disconnect_button).setVisibility(View.VISIBLE);
             findViewById(R.id.entrar_button).setVisibility(View.VISIBLE);
         } else {
             // Show signed-out message and clear email field
-            mStatus.setText(R.string.signed_out);
+//            mStatus.setText(R.string.signed_out);
             ((TextView) findViewById(R.id.email)).setText("");
 
             // Set button visibility
             findViewById(R.id.sign_in_button).setEnabled(true);
-            findViewById(R.id.entrar_button).setVisibility(View.GONE);
+            findViewById(R.id.entrar_button).setVisibility(View.INVISIBLE);
             findViewById(R.id.offline_button).setVisibility(View.VISIBLE);
             findViewById(R.id.sign_in_button).setVisibility(View.VISIBLE);
-            findViewById(R.id.disconnect_button).setVisibility(View.GONE);
+            findViewById(R.id.disconnect_button).setVisibility(View.INVISIBLE);
         }
     }
 

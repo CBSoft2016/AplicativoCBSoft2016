@@ -21,6 +21,7 @@ import com.applications.fronchetti.cbsoft2016.Fragmentos.Restaurantes;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Taxis;
 import com.applications.fronchetti.cbsoft2016.Fragmentos.Turismos;
 import com.applications.fronchetti.cbsoft2016.R;
+import com.applications.fronchetti.cbsoft2016.Utils.ReplaceFont;
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.AccountHeaderBuilder;
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //ReplaceFont.replaceDefaultDont(this, "DEFAULT", "gotham.ttf");
 
         // Handle Toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);

@@ -14,26 +14,22 @@
         android:layout_height="0dp"
         android:layout_weight="3"
         android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
 
         <TextView
             android:id="@+id/title_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
             android:text="Bem Vindo                               CBSOFT - 2016"
             android:gravity="center"
             android:textColor="@android:color/black"
             android:textSize="36sp"
             android:textStyle="bold"
-            android:layout_marginTop="80dp" />
-
-        <TextView
-            android:id="@+id/email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/black"
-            android:textSize="14sp" />
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/entrar_button"
+            android:layout_alignStart="@+id/entrar_button"
+            android:layout_marginTop="90dp" />
 
         <TextView
             android:id="@+id/status"
@@ -42,7 +38,20 @@
             android:text="@string/signed_out"
             android:textColor="@android:color/black"
             android:textSize="14sp"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:layout_alignBottom="@+id/disconnect_button"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="example@gmail.com"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignBottom="@+id/disconnect_button"
+            android:layout_centerHorizontal="true" />
 
     </LinearLayout>
 
@@ -80,10 +89,9 @@
             android:textStyle="bold"
             android:textSize="14dp"
             android:layout_centerVertical="true"
-            android:layout_alignLeft="@+id/space"
-            android:layout_alignStart="@+id/space"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="10dp" />
+            android:layout_toRightOf="@+id/space"
+            android:layout_toEndOf="@+id/space"
+            android:layout_marginRight="10dp" />
 
         <info.hoang8f.widget.FButton
             android:id="@+id/entrar_button"
@@ -104,10 +112,9 @@
             android:textStyle="bold"
             android:textSize="14dp"
             android:layout_alignTop="@+id/disconnect_button"
-            android:layout_alignRight="@+id/space"
-            android:layout_alignEnd="@+id/space"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp" />
+            android:layout_toLeftOf="@+id/space"
+            android:layout_toStartOf="@+id/space"
+            android:layout_marginLeft="10dp" />
 
         <info.hoang8f.widget.FButton
             android:id="@+id/offline_button"
