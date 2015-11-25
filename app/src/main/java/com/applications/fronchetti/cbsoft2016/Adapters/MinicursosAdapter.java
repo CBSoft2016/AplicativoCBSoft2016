@@ -39,7 +39,7 @@ public class MinicursosAdapter extends ArrayAdapter<Minicursos>{
             TextView Local = (TextView) convertView.findViewById(R.id.textMinicursoLocal);
             TextView Instrutor = (TextView) convertView.findViewById(R.id.textMinicursoInstrutor);
 
-            Nome.setText(item.getNome());
+            Nome.setText(item.getTitulo());
             Local.setText(item.getLocal());
             Instrutor.setText(item.getInstrutor());
         }

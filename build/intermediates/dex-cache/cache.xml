@@ -2,6 +2,62 @@
 <items version="2" >
 
     <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-282b7c53a03cc35f3164c603a61df07c85dc4651.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/community-material-typeface/1.2.64.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="369699d91bca084f1ef5d145651d8f70c9a5bbd4">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-ca6912348000f0fa52670407b3e34c11c9ef1796.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="12a4ccfaa8937772fea64fb87c357b508e07dc40">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-58a55d355ef1a4eb4113869f776241edade9df84.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="56d4201846948e03b776e83420270160f5be809a">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-fd633b3b71585fba1633cbff562a4a7b0c97b4ff.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/octicons-typeface/3.0.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a3332adcdc1cdd7ed9a2f6a90f322c0e0c89ab91">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-5704903a89ac9802164bcd9bb73f84199339c927.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-c308cadade57ea9ac826fb7df3f6c97e41516f5f.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/1.7.8/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="823931d182218843c873a769e9e035eb08561546">
+        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-e3f2fabaeb5bfae920df38714cdafdfccaa1483e.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-c1570ef44e09271b68a23d2f20f9ef8457233698.jar" />
+    </item>
+    <item
         jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -9,11 +65,18 @@
         <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-d2a36dd93fedbc9c1a3cc706b4f2e7fa9735c4fb.jar" />
     </item>
     <item
-        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jar="/home/vinicius/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
-        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-40eb6c5d6deaedca905897fb6a7246aab6c460c6.jar" />
+        sha1="1f141026767292cf054aae7467b481bf1b2d0627">
+        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-60166c244b79400ce97607b1d707ff36a2daa0b8.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="12a4ccfaa8937772fea64fb87c357b508e07dc40">
+        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-b423e731c8f1ac18ea9b5275ccb3e7a2d1e859b1.jar" />
     </item>
     <item
         jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
@@ -23,25 +86,11 @@
         <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-cc608d448bc0312e042ff884bbf4f8c58f9c76f3.jar" />
     </item>
     <item
-        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/community-material-typeface/1.2.64.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="c2694476ba83d6a86892517977e80fd1b67a221c">
-        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-547296d5135957db3694323bdd7261c1647bd1f7.jar" />
-    </item>
-    <item
-        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/info.hoang8f/fbutton/1.0.5/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
-        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-13599c980e84529cc4a4a77f84c9785992d640e2.jar" />
-    </item>
-    <item
-        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/1.7.8/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="823931d182218843c873a769e9e035eb08561546">
-        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-e3f2fabaeb5bfae920df38714cdafdfccaa1483e.jar" />
+        sha1="369699d91bca084f1ef5d145651d8f70c9a5bbd4">
+        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-e38542cbe1ef78804575d809198ecabe347fb02d.jar" />
     </item>
     <item
         jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz.iconics/meteocons-typeface/1.1.1/jars/classes.jar"
@@ -58,18 +107,25 @@
         <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-4f1528469ec6a012d697ce4369371da9ad9a83a9.jar" />
     </item>
     <item
-        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4b96e3ed84e7ff8e6e1cbd714755356938d8f173">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-50ed4de831bb2c0596cd86dbf29eaae4ba1ea7ef.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
-        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-c308cadade57ea9ac826fb7df3f6c97e41516f5f.jar" />
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-595908eb1f0f52f61c155cbb9548697e0da3faf9.jar" />
     </item>
     <item
-        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/fontawesome-typeface/4.4.0.1/jars/classes.jar"
+        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/info.hoang8f/fbutton/1.0.5/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="e8ad61c604470ee6933c21ae0aefcf9ee03c3911">
-        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-571a89399f08f0f987f7685ffb8f6cb29b46e336.jar" />
+        sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
+        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-13599c980e84529cc4a4a77f84c9785992d640e2.jar" />
     </item>
     <item
         jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
@@ -79,18 +135,67 @@
         <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-c53db354afba4abe3577936f0d8dcb2498d41d90.jar" />
     </item>
     <item
-        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/fontawesome-typeface/4.4.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="12a4ccfaa8937772fea64fb87c357b508e07dc40">
-        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-b423e731c8f1ac18ea9b5275ccb3e7a2d1e859b1.jar" />
+        sha1="e8ad61c604470ee6933c21ae0aefcf9ee03c3911">
+        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-571a89399f08f0f987f7685ffb8f6cb29b46e336.jar" />
     </item>
     <item
-        jar="/home/vinicius/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/octicons-typeface/3.0.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1f141026767292cf054aae7467b481bf1b2d0627">
-        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-60166c244b79400ce97607b1d707ff36a2daa0b8.jar" />
+        sha1="a3332adcdc1cdd7ed9a2f6a90f322c0e0c89ab91">
+        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-9723808e1f854d256beb7d1eb5e356129eead6be.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/fontawesome-typeface/4.4.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e8ad61c604470ee6933c21ae0aefcf9ee03c3911">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-7163f6a09a8794379a6ed906a4343a29c5e1959f.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/google-material-typeface/1.2.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b646d398bbae664de1bf476c308a2b39d6d2651c">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-387f4d5ed67302cf49b27e9cc6b1fc88c5cdd362.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz.iconics/meteocons-typeface/1.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="013913bcc30fd4c7b77f4d6a50c453e43724e2b7">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-83f0c29909152e51dde8c8847ac86570662415b6.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-e23259cfe595e687e21abe63a9a1f6d7adcd056f.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c2694476ba83d6a86892517977e80fd1b67a221c">
+        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-547296d5135957db3694323bdd7261c1647bd1f7.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/1.7.8/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="823931d182218843c873a769e9e035eb08561546">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-e44ff9d78b49ab9bf8926a86ebf3c7221abcc1f1.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="22b4b28846c79803dc8f3aa7aed2d9cd46271345">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-9a57ea7d3887b3ef77c7f0f2f2566fae672c6ee1.jar" />
     </item>
     <item
         jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
@@ -100,13 +205,6 @@
         <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-bfcb788cdf824b0468d6f0091e76e28f7b2857dc.jar" />
     </item>
     <item
-        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5b33438d9d908799b11578fe540b30ea8d60134e">
-        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-c46a0b45c10acdefe80368674df1eb061bf536a9.jar" />
-    </item>
-    <item
         jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -114,18 +212,46 @@
         <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-3db4e9b0e8f261cebc956922ebfc373609c1c396.jar" />
     </item>
     <item
-        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/community-material-typeface/1.2.64.1/jars/classes.jar"
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="369699d91bca084f1ef5d145651d8f70c9a5bbd4">
-        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-e38542cbe1ef78804575d809198ecabe347fb02d.jar" />
+        sha1="5b33438d9d908799b11578fe540b30ea8d60134e">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-dab44ba47df7870f5a3f459917a23b31b649873a.jar" />
     </item>
     <item
-        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/octicons-typeface/3.0.0.1/jars/classes.jar"
+        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="a3332adcdc1cdd7ed9a2f6a90f322c0e0c89ab91">
-        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-9723808e1f854d256beb7d1eb5e356129eead6be.jar" />
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-40eb6c5d6deaedca905897fb6a7246aab6c460c6.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/info.hoang8f/fbutton/1.0.5/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-6439ae7e7e1426e802f8a4680a140dbd04c7cfc2.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5b33438d9d908799b11578fe540b30ea8d60134e">
+        <dex dex="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-c46a0b45c10acdefe80368674df1eb061bf536a9.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-8fe744596bfa0856be19ba3318cc93f381236346.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c2694476ba83d6a86892517977e80fd1b67a221c">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-56124a41c834eb7ebc9cd5ad11b7e211354f93bf.jar" />
     </item>
     <item
         jar="/home/vinicius/Documentos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/google-material-typeface/1.2.0.1/jars/classes.jar"

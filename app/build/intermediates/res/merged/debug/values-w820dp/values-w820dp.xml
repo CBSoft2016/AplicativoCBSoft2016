@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/vinicius/git/Aplicativo_CBSoft2016/app/src/main/res/values-w820dp/dimens.xml -->
+    <!-- From: file:/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/src/main/res/values-w820dp/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">64dp</dimen>
 </resources>

@@ -4,27 +4,27 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Fragment;
+import android.provider.CalendarContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.provider.CalendarContract.Events;
 
 import com.applications.fronchetti.cbsoft2016.Adapters.Palestra;
 import com.applications.fronchetti.cbsoft2016.Adapters.PalestrasAdapter;
-import com.applications.fronchetti.cbsoft2016.Atividades.WebViewActivity;
 import com.applications.fronchetti.cbsoft2016.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.w3c.dom.Text;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.List;
 
@@ -89,13 +89,13 @@ public class Palestras extends Fragment {
         Lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Palestra palestra = Palestras.get(position);
+                final Palestra palestra = Palestras.get(position);
 
                 // custom dialog
                 final Dialog dialog = new Dialog(getActivity());
                 dialog.setContentView(R.layout.fragment_palestras_dialog);
 
-                TextView nome_palestra = (TextView) dialog.findViewById(R.id.textViewNomePalestra);
+                TextView nome_palestra = (TextView) dialog.findViewById(R.id.textViewNomeMinicurso);
                 nome_palestra.setText(palestra.getNome());
                 TextView local_palestra = (TextView) dialog.findViewById(R.id.textViewLocal);
                 local_palestra.setText(palestra.getLocal());
@@ -106,19 +106,27 @@ public class Palestras extends Fragment {
                 TextView descricao_palestra = (TextView) dialog.findViewById(R.id.textViewDescricao);
                 descricao_palestra.setText(palestra.getDescricao());
 
-                /*Button button_chat = (Button) dialog.findViewById(R.id.button2);
-                button_chat.setOnClickListener(new View.OnClickListener() {
+                TextView text_agendar = (TextView) dialog.findViewById(R.id.textViewAgendar);
+                text_agendar.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent i = new Intent(getActivity(), WebViewActivity.class);
-                        startActivity(i);
+                        String titulo = palestra.getNome();
+                        String local = palestra.getLocal();
+                        String descricao = palestra.getDescricao();
+
+                        String data = palestra.getData();
+                        String[] separated = data.split("-");
+                        int ano = Integer.parseInt(separated[0]);
+                        int mes = Integer.parseInt(separated[1]);
+                        int dia = Integer.parseInt(separated[2]);
+
+                        calendarPalestras(titulo, local, descricao, ano, dia, mes);
                     }
-                });*/
+                });
                 dialog.show();
 
             }
         });
-        System.out.println(Lista);
         Lista.setAdapter(adapter);
         return view;
     }
@@ -137,5 +145,24 @@ public class Palestras extends Fragment {
             return null;
         }
         return json;
+    }
+
+    public void calendarPalestras(String titulo, String local, String descricao, int ano, int dia, int mes){
+        Intent intent_calendar = new Intent(Intent.ACTION_INSERT);
+        intent_calendar.setData(CalendarContract.Events.CONTENT_URI);
+
+        //Configurações do evento.
+        intent_calendar.putExtra(Events.TITLE, titulo);
+        intent_calendar.putExtra(Events.EVENT_LOCATION, local);
+        intent_calendar.putExtra(Events.DESCRIPTION, descricao);
+
+        //Configuração de data do evento
+        GregorianCalendar calDate = new GregorianCalendar(ano, dia, mes);
+        intent_calendar.putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME,
+                calDate.getTimeInMillis());
+        intent_calendar.putExtra(CalendarContract.EXTRA_EVENT_END_TIME,
+                calDate.getTimeInMillis());
+
+        startActivity(intent_calendar);
     }
 }
