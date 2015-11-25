@@ -48,7 +48,6 @@
         android:layout_height="80dp"
         android:id="@+id/imageView_turismo"
         android:layout_alignParentTop="true"
-        android:background="@mipmap/ic_launcher"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_margin="5dp" />
