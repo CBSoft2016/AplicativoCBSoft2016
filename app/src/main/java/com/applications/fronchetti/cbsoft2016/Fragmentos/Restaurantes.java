@@ -58,7 +58,6 @@ public class Restaurantes extends Fragment {
                 String telefone = jo_inside.getString("telefone");
                 String imagem = jo_inside.getString("imagem");
                 String website = jo_inside.getString("website");
-                System.out.println(endereco + telefone + imagem + website);
                 Restaurantes.add(new Restaurante(nome,endereco,telefone,imagem,website));
 
                 m_li = new HashMap<String, String>();

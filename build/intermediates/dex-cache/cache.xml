@@ -2,11 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/root/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jar="/home/vinicius/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/root/Android/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-f07471cc8daabba9b33b6c2492a169834e3c6749.jar" />
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-4ec1f6e9a0f3bce3552e206911ba07da9a83b439.jar" />
+    </item>
+    <item
+        jar="/home/vinicius/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.4/dd9eeb557650c4ad7394df23f0f5cf27a7cfc697/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4-98d5ea50482cc43c645c6a39d03d54680277886f.jar" />
     </item>
 
 </items>
