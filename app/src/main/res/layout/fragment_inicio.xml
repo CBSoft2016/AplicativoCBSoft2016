@@ -164,10 +164,8 @@
         android:textStyle="bold"
         android:textSize="14dp"
         android:layout_below="@+id/f_taxi_button"
-        android:layout_toLeftOf="@+id/space2"
-        android:layout_toStartOf="@+id/space2"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
 
     <Space
         android:layout_width="20px"

@@ -1,6 +1,7 @@
 package com.applications.fronchetti.cbsoft2016.Adapters;
 
 public class Palestra {
+    public String idpalestra;
     public String nome;
     public String data;
     public String descricao;
@@ -11,7 +12,8 @@ public class Palestra {
     public String local;
 
     public Palestra(String nome, String local, String instrutor, String descricao, String horario,
-                    String trabalho, String imagem, String url, String data){
+                    String trabalho, String imagem, String url, String data, String idpalestra){
+        this.idpalestra = idpalestra;
         this.nome = nome;
         this.local = local;
         this.instrutor = instrutor;
@@ -95,6 +97,14 @@ public class Palestra {
 
     public void setHorario(String horario) {
         this.horario = horario;
+    }
+
+    public String getIdpalestra() {
+        return idpalestra;
+    }
+
+    public void setIdpalestra(String idpalestra) {
+        this.idpalestra = idpalestra;
     }
 
 }

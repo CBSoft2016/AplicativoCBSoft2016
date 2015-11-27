@@ -19,6 +19,41 @@
       "nome_ponto":"Ponto de Taxi n 25 Avenida Tuiuti",
       "telefone":"(44) 3268 - 1451",
       "website":null
-    }
+    },
+
+    {
+      "id":"4",
+      "nome_ponto":"Radio Taxi Cidade Maringa",
+      "telefone":"0800 600 3941",
+      "website":"http://www.radiotaxicidade.com.br/"
+    },
+
+    {
+      "id":"5",
+      "nome_ponto":"Ponto de Taxi Avenida São Paulo",
+      "telefone":"(44) 9915-9845",
+      "website":null
+    },
+
+    {
+      "id":"6",
+      "nome_ponto":"Ponto de Taxi Toninho",
+      "telefone":"(44) 9972-0747",
+      "website":null
+    },
+
+    {
+      "id":"7",
+      "nome_ponto":"Ponto de Táxi Nº 30",
+      "telefone":"(44) 3263-2624",
+      "website":null
+    },
+
+    {
+      "id":"8",
+      "nome_ponto":"ABC Rádiotáxi Maringá",
+      "telefone":"(44) 3222-2222",
+      "website":null
+    }   
   ]
 }

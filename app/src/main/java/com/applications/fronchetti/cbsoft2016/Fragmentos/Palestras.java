@@ -34,8 +34,13 @@ import java.util.HashMap;
 import java.util.List;
 
 public class Palestras extends Fragment {
-    public static Palestras newInstance() {
+
+    public static Palestras newInstance(String name, String email) {
         Palestras fragment = new Palestras();
+        Bundle args = new Bundle();
+        args.putString("name", name);
+        args.putString("email", email);
+        fragment.setArguments(args);
         return fragment;
     }
 
@@ -72,10 +77,12 @@ public class Palestras extends Fragment {
                 String url = jo_inside.getString("url");
                 String imagem = jo_inside.getString("imagem");
                 String horario = jo_inside.getString("horario");
+                String idpalestra = jo_inside.getString("idpalestras");
 
-                Palestras.add(new Palestra(nome, local, palestrante, descricao, horario, trabalho, imagem, url, data));
+                Palestras.add(new Palestra(nome, local, palestrante, descricao, horario, trabalho, imagem, url, data, idpalestra));
 
                 m_li = new HashMap<String, String>();
+                m_li.put("idpalestras", idpalestra);
                 m_li.put("titulo", nome);
                 m_li.put("local", local);
                 m_li.put("palestrante", palestrante);
@@ -91,12 +98,12 @@ public class Palestras extends Fragment {
         }
 
         PalestrasAdapter adapter = new PalestrasAdapter(getActivity(), R.layout.fragment_palestras_item, Palestras);
-        ListView Lista = (ListView) view.findViewById(R.id.listViewPalestras);
+        final ListView Lista = (ListView) view.findViewById(R.id.listViewPalestras);
         Lista.setAdapter(adapter);
 
         Lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
                 final Palestra palestra = Palestras.get(position);
 
                 // custom dialog
@@ -118,7 +125,11 @@ public class Palestras extends Fragment {
                 button_chat.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        Palestra palestra = Palestras.get(position);
+                        Bundle args = getArguments();
                         Intent i_chat = new Intent(getActivity(), WebViewActivity.class);
+                        i_chat.putExtra("idpalestra", palestra.getIdpalestra());
+                        i_chat.putExtra("name", args.getString("name"));
                         startActivity(i_chat);
                     }
                 });

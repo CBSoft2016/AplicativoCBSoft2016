@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
     //save our header or result
     private AccountHeader headerResult = null;
     private Drawer result = null;
+    String name = null;
+    String email = null;
 
     private IProfile profile;
 
@@ -54,8 +56,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(R.string.titulo_cbsoft);
 
-        String name = getIntent().getStringExtra("name");
-        String email = getIntent().getStringExtra("email");
+        name = getIntent().getStringExtra("name");
+        email = getIntent().getStringExtra("email");
 
         profile = new ProfileDrawerItem().withName(name).withEmail(email);
 
@@ -89,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                                 CloseDrawer();
                                 break;
                             case 2:
-                                Fragment FragmentPalestras = new Palestras();
+                                Fragment FragmentPalestras = Palestras.newInstance(name,email);
                                 getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentPalestras).addToBackStack(null).commit();
                                 CloseDrawer();
                                 break;

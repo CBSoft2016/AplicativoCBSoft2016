@@ -15,7 +15,6 @@
         android:layout_marginLeft="5dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="5dp"
-        android:layout_toRightOf="@+id/imageView_turismo"
         android:layout_toLeftOf="@+id/imageView_turismo"
         android:layout_toStartOf="@+id/imageView_turismo"
         android:textSize="@dimen/letra_grande"
@@ -30,7 +29,8 @@
         android:textSize="@dimen/letra_media"
         android:layout_below="@+id/textTurismoNome"
         android:layout_alignLeft="@+id/textTurismoTelefone"
-        android:layout_alignStart="@+id/textTurismoTelefone" />
+        android:layout_alignStart="@+id/textTurismoTelefone"
+        android:layout_toLeftOf="@+id/imageView_turismo" />
 
     <TextView
         android:layout_width="wrap_content"

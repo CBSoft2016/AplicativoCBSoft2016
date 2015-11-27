@@ -35,6 +35,34 @@
       "telefone": "(44) 3266 - 1500",
       "website": "http://www.pavanfastgrill.com.br/#_=_",
       "imagem":"http://media-cdn.tripadvisor.com/media/photo-s/03/75/ab/d0/pavan.jpg"
+    },
+
+    {
+      "id":"5",
+      "nome_restaurante":"Casa Portuguesa, Com Certeza",
+      "endereco":"Av. Cerro Azul, 214 ",
+      "telefone":"(44) 3226-9283",
+      "website":"http://vivamaringa.odiario.com/restaurantes/perfil/1321/casa-portuguesa-com-certeza#_=_",
+      "imagem":"http://vivamaringa.odiario.com/Content/Media/Imagem/2010/07/22/g_125326309.jpg?"
+    },
+
+    {
+      "id":"6",
+      "nome_restaurante":"Rock and Honda ",
+      "endereco":"Rua Professor Lauro Eduardo Werneck, 923",
+      "telefone":"(44)3305-3169",
+      "website":"http://www.rockandhonda.com.br/lojas#_=_",
+      "imagem":"http://static1.squarespace.com/static/54cf6052e4b05b135d68b062/54fdef2fe4b074390df3b931/54fdf209e4b0c089f2a739e0/1425928735653/rock_and_honda_curitiba_05.jpg?"
+    },
+
+    {
+      "id":"7",
+      "nome_restaurante":"Don Peponi",
+      "endereco":"Rua Santa Joaquina de Vedruna, 2860",
+      "telefone":"(44) 3224-5207",
+      "website":null,
+      "imagem":"http://media-cdn.tripadvisor.com/media/photo-s/06/5c/36/83/don-peponi.jpg"
     }
+
   ]
 }

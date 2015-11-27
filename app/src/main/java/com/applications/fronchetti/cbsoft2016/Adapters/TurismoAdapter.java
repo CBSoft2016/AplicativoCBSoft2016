@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.applications.fronchetti.cbsoft2016.R;
+import com.squareup.picasso.Picasso;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -57,6 +58,7 @@ public class TurismoAdapter extends ArrayAdapter<Turismo>{
             TextView Telefone = (TextView) convertView.findViewById(R.id.textTurismoTelefone);
             TextView Endereco = (TextView) convertView.findViewById(R.id.textTurismoEndereco);
             ImageView Imagem = (ImageView) convertView.findViewById(R.id.imageView_turismo);
+            Picasso.with(getContext()).load(item.getImagem()).into(Imagem);
 
             Nome.setText(item.getNome());
             Telefone.setText(item.getTelefone());

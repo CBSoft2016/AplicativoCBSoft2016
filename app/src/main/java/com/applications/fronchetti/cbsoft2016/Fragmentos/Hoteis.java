@@ -51,11 +51,12 @@ public class Hoteis extends Fragment {
                 String endereco = jo_inside.getString("endereco");
                 String telefone = jo_inside.getString("telefone");
                 String url = jo_inside.getString("url");
+                String imagem = jo_inside.getString("image");
 
-                Hoteis.add(new Hotel(hotel_hostel,endereco,telefone,url,""));
-                System.out.println("Hotel: " + hotel_hostel);
-                System.out.println("Endereço: " + endereco);
+                Hoteis.add(new Hotel(hotel_hostel,endereco,telefone,url,imagem));
+
                 m_li = new HashMap<String, String>();
+                m_li.put("image", imagem);
                 m_li.put("hotel_hostel", hotel_hostel);
                 m_li.put("endereco", endereco);
                 m_li.put("telefone", telefone);

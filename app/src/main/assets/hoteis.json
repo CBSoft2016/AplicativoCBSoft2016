@@ -34,6 +34,44 @@
       "telefone": "(44) 3227 - 1993",
       "url": "http://www.thomasi.com/maringa/",
       "image":"http://www.thomasi.com/maringa/img/slide3.jpg"
-    }
+    },
+
+    {   
+    "id": "4",
+    "hotel_hostel": "Hotel Thomasi",
+    "endereco": "Av. Colombo, 3531",
+    "telefone": "(44) 3227 - 1993",
+    "url": "http://www.thomasi.com/maringa/",
+    "image":"http://www.thomasi.com/maringa/img/slide3.jpg"
+    },
+
+  {
+    "id": "5",
+    "hotel_hostel":"Hotel Central Plaza",
+    "endereco":"Av. Herval, 725",
+    "telefone":"(44)3041-6336",
+    "url":"http://www.hotelcentralplaza.com.br/",
+    "image":"http://www.hotelcentralplaza.com.br/wp-content/gallery/hotel_set_2014/hotel_-3.jpg"
+  },
+
+
+  {
+    "id": "6",
+    "hotel_hostel":"Hotel Elite",
+    "endereco":"Rua Joubert de Carvalho, 208",
+    "telefone":"(44)3222-5880",
+    "url":null,
+    "image":"http://h.fmet1.com/CC/E622B2939A02E87989E7F730CA5DBF.jpg"
+  },
+
+
+  {
+    "id": "7",
+    "hotel_hostel":"hotel Golden Ingá",
+    "endereco":"Rua Néo Alves Martins, 2398",
+    "telefone":"(44)3226-4511",
+    "url":"http://www.goldeninga.com.br/",
+    "image":"http://www.goldeninga.com.br/static/img/apes/tematico/foto2.jpg"
+  }
   ]
 }

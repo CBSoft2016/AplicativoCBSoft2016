@@ -1,30 +1,109 @@
+
 {
-  "minicursos": [
-    {
-      "id":"1",
-      "titulo": "Web Funcional com Clojure e Clojurescript",
-      "horario":"14:00",
-      "data":"2015-11-14",
-      "descricao": "Minicurso voltado para desenvolvimento Clojure e Clojurescript",
-      "local":"E101",
-      "instrutor":"Eduardo Radanovitsck",
-      "localtrabalho":"ThoughtWorks",
-      "imagem":"http://cbsoft.org/articles/0000/0519/Eduardo_Aquiles.jpg",
-      "url":null
-    },
+"minicursos": [
+  {
+    "id":"1",
+    "titulo": "Web Funcional com Clojure e Clojurescript",
+    "miniTitulo":"Funcional Clojure e Clojurescript",
+    "horario":"14:00",
+    "termino":"15:30",
+    "data":"2016-14-07",
+    "descricao": "Minicurso voltado para desenvolvimento Clojure e Clojurescript",
+    "local":"E101",
+    "instrutor":"Eduardo Radanovitsck",
+    "localtrabalho":"ThoughtWorks",
+    "imagem":"http://cbsoft.org/articles/0000/0519/Eduardo_Aquiles.jpg",
+    "url":null      
+  },
 
-    {
-      "id":"2",
-      "titulo": "Introducao a Gerencia de Portfolios de Projetos",
-      "horario":"14:00",
-      "descricao": "Minicurso voltado para técnicas de gerenciamento de projetos",
-      "data":"2015-11-14",
-      "local":"E105",
-      "instrutor":"Cesar de Avila Rodrigues",
-      "localtrabalho":"Avanti Negocios e Tecnologia",
-      "imagem":"http://cbsoft.org/articles/0000/0435/Cesar_Rodrigues_portif_lios_de_projetos.jpg",
-      "url":null
-    }
-  ]
+  {
+    "id":"2",
+    "titulo": "Introducao a Gerencia de Portfolios de Projetos",
+    "miniTitulo":"Gerencia de Portfolios de Projetos",
+    "horario":"14:00",
+    "termino":"15:30",
+    "descricao": "Minicurso voltado para técnicas de gerenciamento de projetos",
+    "data":"2016-15-07",
+    "local":"E105",
+    "instrutor":"Cesar de Avila Rodrigues",
+    "localtrabalho":"Avanti Negocios e Tecnologia",
+    "imagem":"http://cbsoft.org/articles/0000/0435/Cesar_Rodrigues_portif_lios_de_projetos.jpg",
+    "url":null
+  },
 
+  {
+    "id":"3",
+    "titulo":"Criando o seu primeiro app Android",
+    "miniTitulo":"Criando primeiro app Android",
+    "horario":"18:00",
+    "termino":"20:00",
+    "descricao":"Minicurso no estilo codelab. Ao final do minicurso, terão uma aplicação completa para usarem como referência nos próximos projetos.",
+    "data":"2016-20-07",
+    "local":"E103",
+    "instrutor":"Neto Marin",
+    "localtrabalho":"Developer Advocate do Google no Brasil",
+    "imagem":"https://appmakeover.withgoogle.com/images/netomarin.jpg",
+    "url":null
+  },
+
+  {
+    "id":"4",
+    "titulo":"Entrega Contínua",
+    "miniTitulo":"Entrega Contínua",
+    "horario":"16:00",
+    "termino":"19:00",
+    "descricao":"Neste minicurso vamos explorar as técnicas e processos que envolvem a Entrega Contínua de software.",
+    "data":"2016-21-07",
+    "local":"E007",
+    "instrutor":"Marco Aurélio Valtas Cunhas ",
+    "localtrabalho":"Consultor de desenvolvimento na Thoughtworks.",
+    "imagem":"http://cbsoft.org/articles/0000/0442/GetInline.jpg",
+    "url":null
+  },
+
+  {
+    "id":"5",
+    "titulo":"Ferramentas JavaScript e Entrega Contínua",
+    "miniTitulo":"JavaScript e Entrega Contínua",
+    "horario":"09:00",
+    "termino":"12:00",
+    "descricao":"Aproximando desenvolvimento do negócio",
+    "data":"2016-19-07",
+    "local":"E001",
+    "instrutor":"Rogério Chaves",
+    "localtrabalho":"ThoughtWorks",
+    "imagem":"http://cbsoft.org/articles/0000/0495/foto-perfil.jpeg",
+    "url":null
+  },
+
+  {
+    "id":"6",
+    "titulo":"Aprenda programação funcional construindo sua própria linguagem",
+    "miniTitulo":"Aprenda programação funcional",
+    "horario":"09:00",
+    "termino":"12:00",
+    "descricao":"Qual é o melhor jeito de entender como funciona uma linguagem funcional? ",
+    "data":"2016-19-07",
+    "local":"E106",
+    "instrutor":"Marcos Matos",
+    "localtrabalho":"ThoughtWorks",
+    "imagem":"http://cbsoft.org/articles/0000/0488/Foto-Marcelo.JPG",
+    "url":null
+  },
+
+  {
+    "id":"7",
+    "titulo":"Desenvolvimento Web Responsivo",
+    "miniTitulo":"Desenvolvimento Web Responsivo",
+    "horario":"10:00",
+    "termino":"13:00",
+    "descricao":"você aprenderá sobre os conceitos e fundamentos do design responsivo da teoria até a prática",
+    "data":"2016-20-07",
+    "local":"E102",
+    "instrutor":"Lucas Estevão",
+    "localtrabalho":"AvenueCode",
+    "imagem":"http://cbsoft.org/articles/0000/0437/Lucas_Estev_o_responsivo.JPG",
+    "url":null
+  }
+]     
 }

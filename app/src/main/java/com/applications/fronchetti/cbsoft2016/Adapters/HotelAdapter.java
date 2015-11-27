@@ -6,9 +6,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.applications.fronchetti.cbsoft2016.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,6 +43,8 @@ public class HotelAdapter extends ArrayAdapter<Hotel>{
             TextView Nome = (TextView) convertView.findViewById(R.id.textHotelNome);
             TextView Endereco = (TextView) convertView.findViewById(R.id.textHotelEndereco);
             TextView Telefone = (TextView) convertView.findViewById(R.id.textHotelTelefone);
+            ImageView Imagem = (ImageView) convertView.findViewById(R.id.imageHotel);
+            Picasso.with(getContext()).load(item.getImagem()).into(Imagem);
 
             Nome.setText(item.getNome());
             Endereco.setText(item.getEndereco());

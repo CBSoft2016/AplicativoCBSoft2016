@@ -14,7 +14,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="5dp"
         android:textStyle="bold"
-        android:textSize="@dimen/letra_grande" />
+        android:textSize="@dimen/letra_grande"
+        android:layout_toLeftOf="@+id/imageHotel" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,7 +26,8 @@
         android:textSize="@dimen/letra_media"
         android:layout_below="@+id/textHotelNome"
         android:layout_toRightOf="@+id/imageView5"
-        android:layout_toEndOf="@+id/imageView5" />
+        android:layout_toEndOf="@+id/imageView5"
+        android:layout_toLeftOf="@+id/imageHotel" />
 
     <TextView
         android:layout_width="wrap_content"

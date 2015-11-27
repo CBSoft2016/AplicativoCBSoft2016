@@ -4,9 +4,10 @@
     {
       "idpalestras":"cbsoft2016001",
       "titulo":"Criando o Sistema Operacional Unix",
-      "data":"2015-12-14",
+      "data":"2016-12-16",
       "descricao":"Palestra demonstrando como é o desenvolvimento de um sistema operacional.",
       "horario":"15:30",
+      "termino":"16:30",
       "local":"Auditório Bloco E",
       "palestrante":"Linus Torvalds",
       "trabalho":"Linux Foundation",
@@ -17,10 +18,11 @@
     {
       "idpalestras":"cbsoft2016002",
       "titulo":"Supporting Newcomers to Overcome the Barriers to Contribute to Open Source Software Projects",
-      "data":"2015-11-14",
+      "data":"2016-11-16",
       "descricao":"Palestra demonstrativa das barreiras em contribuir com software livre.",
       "local":"Auditório Bloco E",
       "horario":"13:00",
+      "termino":"14:00",
       "palestrante":"Igor Fabio Steinmacher",
       "trabalho":"Coordenador do Curso Ciencia da Computacao, UTFPR-CM",
       "imagem":"http://src.odiario.com/imagem/2015/07/01/m_div-igor-steinmacher.JPG",
@@ -30,14 +32,74 @@
     {
       "idpalestras":"cbsoft2016003",
       "titulo":"On the criteria to be used in decomposing systems into modules",
-      "data":"2015-11-15",
+      "data":"2016-11-16",
       "descricao":"Palestra com David Parnas que demonstra a decomposição do sistema em módulos",
       "local":"Auditório Bloco E",
       "horario":"13:00",
+      "termino":"14:00",
       "palestrante":"David Parnas",
       "trabalho":"Middle Road Software",
       "imagem":"http://upload.wikimedia.org/wikipedia/commons/e/e4/David_Parnas.jpg",
       "url":"https://scholar.google.com/citations?user=t8GDoiMAAAAJ"
+    },
+
+    {
+      "idpalestras":"cbsoft2016004",
+      "titulo":"Redes de Computadores",
+      "data":"2016-11-16",
+      "descricao":"American computer scientist and professor emeritus",
+      "local":"Auditório Bloco E",
+      "horario":"19:00",
+      "termino":"20:00",
+      "palestrante":"Andrew S. Tanenbaum",
+      "trabalho":"chefe do Departamento de sistemas de computação",
+      "imagem":"http://www.linuxnewmedia.com.br/images/uploads/news/tanenbaum_medium.jpg",
+      "url":"http://www.cs.vu.nl/~ast/"
+    },
+
+
+    {
+      "idpalestras":"cbsoft2016005",
+      "titulo":"GNU COmpiler Collection",
+      "data":"2016-11-16",
+      "descricao":"Founder of GNU Project and Free Software Foundation, father and current maintainer",
+      "local":"Auditório Bloco E",
+      "horario":"20:00",
+      "termino":"21:00",
+      "palestrante":"Richard Matthew Stallman",
+      "trabalho":"Founder of GNU Project and Free Software Foundation",
+      "imagem":"http://upload.wikimedia.org/wikipedia/commons/f/f3/Jadwisin_2009_Richard_Stallman.jpg",
+      "url":"https://stallman.org/"
+    },
+
+
+    {
+      "idpalestras":"cbsoft2016006",
+      "titulo":"Trabalhando com o UNIX",
+      "data":"2016-11-16",
+      "descricao":"Conhecendo o UNIX",
+      "local":"Auditório Bloco E",
+      "horario":"17:00",
+      "termino":"18:00",
+      "palestrante":"Ken Thompson",
+      "trabalho":"conhecido pela sua influência no sistema operacional UNIX",
+      "imagem":"http://images.techhive.com/images/idge/imported/imageapi/2014/10/08/17/slide_ken-thompson-620x465-100502874-gallery.idge.jpg",
+      "url":"http://www.linfo.org/thompson.html"
+    },
+
+
+    {
+      "idpalestras":"cbsoft2016007",
+      "titulo":"Catedral e o Bazar",
+      "data":"2016-11-16",
+      "descricao":"Free Software Foundation",
+      "local":"Auditório Bloco EE",
+      "horario":"08:00",
+      "termino":"09:00",
+      "palestrante":"Eric S. Raymond's",
+      "trabalho":"conhecido também como ESR, é um famoso hacker e escritor americano.",
+      "imagem":"http://static.vivaolinux.com.br/imagens/artigos/comunidade/esr.jpg",
+      "url":"www.catb.org/esr/"
     }
   ]
 }

@@ -1,5 +1,6 @@
 package com.applications.fronchetti.cbsoft2016.Atividades;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -18,6 +19,10 @@ public class WebViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
 
+        String nome = getIntent().getStringExtra("name");
+        nome.replaceAll(" ", "_");
+        String id = getIntent().getStringExtra("idpalestra");
+
         // Handle Toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitleTextColor(Color.WHITE);
@@ -27,7 +32,9 @@ public class WebViewActivity extends AppCompatActivity {
         WebView webView = (WebView) findViewById(R.id.webView);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webView.loadUrl("http://www.taquiapp.com.br/cbsof_projeto/?idpalestra=casa&nome=usuario");
+        String url = "http://www.taquiapp.com.br/cbsof_projeto/?idpalestra="+id+"&nome="+nome;
+        System.out.println(url);
+        webView.loadUrl(url);
     }
 
     @Override

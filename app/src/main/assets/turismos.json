@@ -35,6 +35,36 @@
       "telefone": "(44) 3247 - 3295",
       "website": "http://www.saltobandeirantes.com.br/",
       "imagem":"http://www.pagliarinimarathonbike.com.br/wp-content/uploads/2014/11/Salto-Bandeirantes-PMB6-1.jpg"
+    },
+
+    {
+    	"id":"5",
+    	"ponto_turistico":"Museu da Bacia do Paraná",
+    	"endereco":"Av. Colombo, 5.790",
+    	"telefone":"(44) 3261-4294  ",
+    	"website":null,
+    	"imagem":"http://media-cdn.tripadvisor.com/media/photo-s/03/bd/b1/be/museu-da-bacia-do-parana.jpg"
+    },
+
+
+    {
+    	"id":"6",
+    	"ponto_turistico":"Parque Florestal dos Pioneiros",
+    	"endereco":"Av. Itororó com a Av. Nóbrega | Zona 04",
+    	"telefone":"(44) 3221-1912",
+    	"website":null,
+    	"imagem":"http://media-cdn.tripadvisor.com/media/photo-s/03/bd/b0/61/parque-florestal-dos.jpg"
+    },
+
+
+    {
+    	"id":"7",
+    	"ponto_turistico":"Agua Azul Hotel Fazenda",
+    	"endereco":"Estrada Caminho do Peabirú, KM 4,5 - Bairro Arurau",
+    	"telefone":"(44) 3567 - 1027",
+    	"website":"http://www.aguaazul.com.br/",
+    	"imagem":"http://media-cdn.tripadvisor.com/media/photo-o/04/5a/90/31/hotel-fazenda-agua-azul.jpg"
     }
+
   ]
 }
