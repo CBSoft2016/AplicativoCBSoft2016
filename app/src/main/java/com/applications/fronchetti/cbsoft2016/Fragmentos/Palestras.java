@@ -1,7 +1,10 @@
 package com.applications.fronchetti.cbsoft2016.Fragmentos;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.provider.CalendarContract;
@@ -13,6 +16,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.provider.CalendarContract.Events;
+import android.widget.Toast;
 
 import com.applications.fronchetti.cbsoft2016.Adapters.Palestra;
 import com.applications.fronchetti.cbsoft2016.Adapters.PalestrasAdapter;
@@ -125,12 +129,17 @@ public class Palestras extends Fragment {
                 button_chat.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Palestra palestra = Palestras.get(position);
-                        Bundle args = getArguments();
-                        Intent i_chat = new Intent(getActivity(), WebViewActivity.class);
-                        i_chat.putExtra("idpalestra", palestra.getIdpalestra());
-                        i_chat.putExtra("name", args.getString("name"));
-                        startActivity(i_chat);
+                        if (isNetworkAvailable()) {
+                            Palestra palestra = Palestras.get(position);
+                            Bundle args = getArguments();
+                            Intent i_chat = new Intent(getActivity(), WebViewActivity.class);
+                            i_chat.putExtra("idpalestra", palestra.getIdpalestra());
+                            i_chat.putExtra("name", args.getString("name"));
+                            startActivity(i_chat);
+                        } else {
+                            Toast.makeText(getActivity(), "Internet indisponível", Toast.LENGTH_SHORT).show();
+                        }
+
                     }
                 });
 
@@ -149,7 +158,7 @@ public class Palestras extends Fragment {
                         int dia = Integer.parseInt(separated_date[2]);
 
                         String hour = palestra.getHorario();
-                        String [] separated_hour = hour.split(":");
+                        String[] separated_hour = hour.split(":");
                         int hours = Integer.parseInt(separated_hour[0]);
                         int minutes = Integer.parseInt(separated_hour[1]);
 
@@ -202,5 +211,12 @@ public class Palestras extends Fragment {
                 endtime.getTimeInMillis());
 
         startActivity(intent_calendar);
+    }
+
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 }

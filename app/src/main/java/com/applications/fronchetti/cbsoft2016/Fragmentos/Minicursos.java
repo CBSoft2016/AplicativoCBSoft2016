@@ -30,10 +30,6 @@ import java.util.HashMap;
 import java.util.List;
 
 public class Minicursos extends Fragment {
-    public static Minicursos newInstance() {
-        Minicursos fragment = new Minicursos();
-        return fragment;
-    }
 
     public Minicursos() {
         // Required empty public constructor

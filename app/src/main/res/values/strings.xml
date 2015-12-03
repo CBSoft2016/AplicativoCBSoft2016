@@ -1,9 +1,5 @@
 <resources>
-    <string name="app_name">CBSoft2016</string>
-
-    <!--Título CBSOFT 2016-->
-
-    <string name="titulo_cbsoft">CBSOFT 2016</string>
+    <string name="app_name">CBSoft</string>
 
     <!--Strings navigation Drawer-->
     <string name="fragmento_pontos_turisticos">Turismo</string>

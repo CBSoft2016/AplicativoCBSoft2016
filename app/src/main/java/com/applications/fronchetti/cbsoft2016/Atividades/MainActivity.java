@@ -54,7 +54,9 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(R.string.titulo_cbsoft);
+        toolbar.setTitle("CBSoft");
+        toolbar.setTitleTextAppearance(this,R.style.TextTitle);
+        toolbar.setBackgroundColor(Color.parseColor("#2c2c4e"));
 
         name = getIntent().getStringExtra("name");
         email = getIntent().getStringExtra("email");
@@ -68,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         result = new DrawerBuilder()
                 .withActivity(this)
                 .withToolbar(toolbar)
+                .withDisplayBelowStatusBar(true)
                 .withAccountHeader(headerResult) //set the AccountHeader we created earlier for the header
                 .addDrawerItems(
                         new PrimaryDrawerItem().withName("Página Inicial").withIcon(FontAwesome.Icon.faw_home),
@@ -137,6 +140,7 @@ public class MainActivity extends AppCompatActivity {
                 .withSavedInstance(savedInstanceState)
                 .build();
 
+        result.setStatusBarColor(Color.BLACK);
         Fragment FragmentInicio = new Inicio();
         getFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentInicio).commit();
     }

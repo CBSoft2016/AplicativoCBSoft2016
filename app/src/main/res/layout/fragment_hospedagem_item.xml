@@ -27,7 +27,8 @@
         android:layout_below="@+id/textHotelNome"
         android:layout_toRightOf="@+id/imageView5"
         android:layout_toEndOf="@+id/imageView5"
-        android:layout_toLeftOf="@+id/imageHotel" />
+        android:layout_toLeftOf="@+id/imageHotel"
+        android:layout_marginRight="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,6 +48,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:background="@drawable/style_image"
         android:layout_margin="5dp" />
 
     <ImageView

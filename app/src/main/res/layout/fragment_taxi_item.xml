@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="5dp"
         android:textStyle="bold"
-        android:textSize="@dimen/letra_grande" />
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,7 +25,8 @@
         android:textSize="@dimen/letra_media"
         android:layout_below="@+id/textTaxiNome"
         android:layout_toRightOf="@+id/imageView7"
-        android:layout_toEndOf="@+id/imageView7" />
+        android:layout_toEndOf="@+id/imageView7"
+        android:layout_marginBottom="15dp" />
 
     <ImageView
         android:layout_width="15dp"

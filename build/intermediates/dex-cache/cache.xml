@@ -2,18 +2,151 @@
 <items version="2" >
 
     <item
-        jar="/home/vinicius/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-4ec1f6e9a0f3bce3552e206911ba07da9a83b439.jar" />
-    </item>
-    <item
-        jar="/home/vinicius/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.4/dd9eeb557650c4ad7394df23f0f5cf27a7cfc697/universal-image-loader-1.9.4.jar"
+        jar="/home/fronchetti/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.4/dd9eeb557650c4ad7394df23f0f5cf27a7cfc697/universal-image-loader-1.9.4.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
-        <dex dex="/home/vinicius/git/CBSoft-2016/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4-98d5ea50482cc43c645c6a39d03d54680277886f.jar" />
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4-a268ba1921d73aba0262b1fe797ecb82627a04e6.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-6b18265a088fee799965fd8bafc4ef6f61c8bc1b.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/octicons-typeface/3.0.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a3332adcdc1cdd7ed9a2f6a90f322c0e0c89ab91">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-c8f5be393bd2fd24cfd6233aaf8bb20ee8505cda.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/info.hoang8f/fbutton/1.0.5/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-87a9515a9e9f9113a546d52c85d081780ef54b7e.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-25686aaaaf2ede6f47bda98c0c7962f224daff3b.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/1.7.8/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="823931d182218843c873a769e9e035eb08561546">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-bfd66ff14d9f782b183bbb5effb7e8d9c71e8add.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-be94bab6e0a8ec1f0667adec5ce3a04f4426ffdf.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/google-material-typeface/1.2.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b646d398bbae664de1bf476c308a2b39d6d2651c">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-734a255a1910a33f5207ef894909d9983f4a82c8.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-7515319109b9c7d6cea56723e7af1daaf85743a4.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz.iconics/meteocons-typeface/1.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="013913bcc30fd4c7b77f4d6a50c453e43724e2b7">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-557f48bcffed441b393689141f0d9942cce74ed2.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.3.7/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="56d4201846948e03b776e83420270160f5be809a">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-6942f36d81561ea52bec2928ea9e0efdc16c3f26.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-2c9f8b5b92e5ebbdfd1cf066b36423fb5a903198.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/community-material-typeface/1.2.64.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="369699d91bca084f1ef5d145651d8f70c9a5bbd4">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-5ad410bff81ad8dc66c44a90f26293e1811cd632.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-356c2c820b6d03e0cfd023e380b0a44cf341add5.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-4cdb8f03418a4f3b7a643865415cc2d531be9f2b.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-454bf0be34ef715362af2e4a0bda41b14e8f535d.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-22de9a49f84e15abbeb3d954249d2e13560c201a.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/fontawesome-typeface/4.4.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e8ad61c604470ee6933c21ae0aefcf9ee03c3911">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-76884fcc5cb6b2f3ab49261b2d58d14e92bda6d4.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-214d1a291874987111ad6f0b114a67b602ca04e0.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-326ad11295ea286e2e0bc218084c6c00d6b8e0be.jar" />
+    </item>
+    <item
+        jar="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.6/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4b96e3ed84e7ff8e6e1cbd714755356938d8f173">
+        <dex dex="/home/fronchetti/Projetos/Aplicativo_CBSoft2016/app/build/intermediates/pre-dexed/debug/classes-aa9b0ca71daef758ec43b3e62f3c0f5678e026f7.jar" />
     </item>
 
 </items>
