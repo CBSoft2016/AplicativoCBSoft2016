@@ -2739,11 +2739,10 @@ containing a value of this type.
         public static final int material_drawer_shadow_left=0x7f020069;
         public static final int material_drawer_shadow_right=0x7f02006a;
         public static final int material_drawer_shadow_top=0x7f02006b;
-        public static final int math=0x7f02006c;
-        public static final int notification_template_icon_bg=0x7f020070;
-        public static final int phone=0x7f02006d;
-        public static final int snackbar_background=0x7f02006e;
-        public static final int style_image=0x7f02006f;
+        public static final int notification_template_icon_bg=0x7f02006f;
+        public static final int phone=0x7f02006c;
+        public static final int snackbar_background=0x7f02006d;
+        public static final int style_image=0x7f02006e;
     }
     public static final class id {
         public static final int action0=0x7f0c00ca;

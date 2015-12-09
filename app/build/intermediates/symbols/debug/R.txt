@@ -996,11 +996,10 @@ int drawable material_drawer_shadow_bottom 0x7f020068
 int drawable material_drawer_shadow_left 0x7f020069
 int drawable material_drawer_shadow_right 0x7f02006a
 int drawable material_drawer_shadow_top 0x7f02006b
-int drawable math 0x7f02006c
-int drawable notification_template_icon_bg 0x7f020070
-int drawable phone 0x7f02006d
-int drawable snackbar_background 0x7f02006e
-int drawable style_image 0x7f02006f
+int drawable notification_template_icon_bg 0x7f02006f
+int drawable phone 0x7f02006c
+int drawable snackbar_background 0x7f02006d
+int drawable style_image 0x7f02006e
 int id action0 0x7f0c00ca
 int id action_bar 0x7f0c0061
 int id action_bar_activity_content 0x7f0c0000

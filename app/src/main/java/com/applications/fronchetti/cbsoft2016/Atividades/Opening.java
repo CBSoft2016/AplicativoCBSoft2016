@@ -16,7 +16,7 @@ public class Opening extends Activity {
         setContentView(R.layout.activity_opening);
         final ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
-        new CountDownTimer(1000, 500) {
+        new CountDownTimer(5000, 500) {
             public void onFinish() {
                 Intent startActivity = new Intent(Opening.this, Login.class);
                 startActivity(startActivity);

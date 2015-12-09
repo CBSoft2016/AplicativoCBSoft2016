@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -34,6 +35,10 @@ public class WebViewActivity extends AppCompatActivity {
         WebView webView = (WebView) findViewById(R.id.webView);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        webView.setWebChromeClient(new WebChromeClient());
+        webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
         String url = "http://www.taquiapp.com.br/cbsof_projeto/?idpalestra="+id+"&nome="+nome;
+        webView.loadUrl(url);
+        webView.setWebViewClient(new WebViewClient());
     }
 }
